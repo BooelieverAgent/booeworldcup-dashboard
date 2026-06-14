@@ -982,8 +982,8 @@ h1, h2, h3, h4, h5 {
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
 }
 
 .footer-col h5 {
