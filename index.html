@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oracle of BOOE | World Cup 2026 Predictions</title>
+  <meta name="description" content="AI-powered World Cup predictions sealed on Base blockchain. The ancient oracle meets modern football.">
+  <meta property="og:title" content="Oracle of BOOE | World Cup 2026">
+  <meta property="og:description" content="AI predictions sealed on-chain. Track accuracy, verify proofs, witness the oracle.">
+  <meta property="og:image" content="assets/og-image.png">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background -->
+  <div class="bg-ambient">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="pitch-lines"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo-icon">🔮</div>
+        <div class="logo-text">
+          <h1>Oracle of BOOE</h1>
+          <span class="tagline">AI Predicts • Blockchain Seals</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#predictions" class="nav-link">Predictions</a>
+        <a href="#stats" class="nav-link">Stats</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="https://basescan.org/address/0x1E2B2360164249B9E45D3D0676294FB81DCBD5aF" target="_blank" class="btn btn-chain">
+          <span class="chain-dot"></span>
+          View Contract
+        </a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="world-cup-badge">
+          <span class="trophy">🏆</span>
+          <span>FIFA World Cup 2026</span>
+        </div>
+        <h2 class="hero-title">The Ancient Oracle<br>Meets Modern Football</h2>
+        <p class="hero-subtitle">Every prediction cryptographically signed and sealed on Base blockchain before kickoff. Immutable. Verifiable. Transparent.</p>
+        <div class="hero-stats" id="heroStats">
+          <div class="hero-stat">
+            <span class="hero-stat-value" id="totalPredictions">-</span>
+            <span class="hero-stat-label">Predictions</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" id="accuracy">-</span>
+            <span class="hero-stat-label">Accuracy</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" id="exactScores">-</span>
+            <span class="hero-stat-label">Exact Scores</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" id="onChain">-</span>
+            <span class="hero-stat-label">On-Chain</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="crystal-ball">
+          <div class="ball-glow"></div>
+          <div class="ball-inner">
+            <span class="ball-icon">⚽</span>
+          </div>
+          <div class="ball-ring ring-1"></div>
+          <div class="ball-ring ring-2"></div>
+          <div class="ball-ring ring-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Today's Matches -->
+  <section class="section" id="today">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">
+          <span class="title-icon">📅</span>
+          Today's Predictions
+        </h3>
+        <span class="section-date" id="todayDate"></span>
+      </div>
+      <div class="matches-grid" id="todayMatches">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+          <span>Consulting the oracle...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Predictions -->
+  <section class="section section-dark" id="predictions">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">
+          <span class="title-icon">🔮</span>
+          All Predictions
+        </h3>
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="correct">✅ Correct</button>
+          <button class="filter-tab" data-filter="wrong">❌ Wrong</button>
+          <button class="filter-tab" data-filter="pending">⏳ Pending</button>
+        </div>
+      </div>
+      <div class="predictions-table-wrap">
+        <table class="predictions-table" id="predictionsTable">
+          <thead>
+            <tr>
+              <th>Match</th>
+              <th>Prediction</th>
+              <th>Score</th>
+              <th>Result</th>
+              <th>Proof</th>
+            </tr>
+          </thead>
+          <tbody id="predictionsBody">
+            <tr>
+              <td colspan="5" class="loading-cell">
+                <div class="loading-spinner"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section" id="stats">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">
+          <span class="title-icon">📊</span>
+          Oracle Performance
+        </h3>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">🎯</div>
+          <div class="stat-content">
+            <span class="stat-value" id="statAccuracy">-</span>
+            <span class="stat-label">Overall Accuracy</span>
+          </div>
+          <div class="stat-bar">
+            <div class="stat-bar-fill" id="accuracyBar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">✅</div>
+          <div class="stat-content">
+            <span class="stat-value" id="statCorrect">-</span>
+            <span class="stat-label">Correct Predictions</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🎱</div>
+          <div class="stat-content">
+            <span class="stat-value" id="statExact">-</span>
+            <span class="stat-label">Exact Score Hits</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">⛓️</div>
+          <div class="stat-content">
+            <span class="stat-value" id="statOnChain">-</span>
+            <span class="stat-label">Sealed On-Chain</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accuracy by prediction type -->
+      <div class="breakdown-section">
+        <h4 class="breakdown-title">Breakdown by Outcome</h4>
+        <div class="breakdown-grid" id="breakdownGrid">
+          <div class="breakdown-item">
+            <span class="breakdown-label">Home Wins</span>
+            <div class="breakdown-bar">
+              <div class="breakdown-fill" id="homeWinBar" style="width: 0%"></div>
+            </div>
+            <span class="breakdown-value" id="homeWinPct">-</span>
+          </div>
+          <div class="breakdown-item">
+            <span class="breakdown-label">Away Wins</span>
+            <div class="breakdown-bar">
+              <div class="breakdown-fill" id="awayWinBar" style="width: 0%"></div>
+            </div>
+            <span class="breakdown-value" id="awayWinPct">-</span>
+          </div>
+          <div class="breakdown-item">
+            <span class="breakdown-label">Draws</span>
+            <div class="breakdown-bar">
+              <div class="breakdown-fill" id="drawBar" style="width: 0%"></div>
+            </div>
+            <span class="breakdown-value" id="drawPct">-</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section section-dark" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">
+          <span class="title-icon">⚙️</span>
+          How It Works
+        </h3>
+      </div>
+      <div class="how-grid">
+        <div class="how-card">
+          <div class="how-number">1</div>
+          <div class="how-icon">🤖</div>
+          <h4>AI Analysis</h4>
+          <p>The Oracle analyzes team form, historical matchups, player data, and market sentiment to generate predictions.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-number">2</div>
+          <div class="how-icon">🔐</div>
+          <h4>Cryptographic Signing</h4>
+          <p>Each prediction is signed with the Oracle's private key, creating an unforgeable timestamp.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-number">3</div>
+          <div class="how-icon">⛓️</div>
+          <h4>Blockchain Sealing</h4>
+          <p>Signed predictions are recorded on Base blockchain before kickoff - immutable and verifiable by anyone.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-number">4</div>
+          <div class="how-icon">✅</div>
+          <h4>Transparent Results</h4>
+          <p>After the match, results are recorded on-chain. Our accuracy is public, permanent, and can't be faked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">🔮 Oracle of BOOE</div>
+          <p>AI-powered predictions for FIFA World Cup 2026, sealed on Base blockchain.</p>
+          <div class="footer-socials">
+            <a href="https://t.me/booecoin" target="_blank" class="social-link" title="Telegram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.015-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.789.027-.216.324-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.015 3.333-1.386 4.025-1.627 4.477-1.635.099-.002.321.023.465.141.121.1.155.234.17.331.015.098.034.322.019.496z"/></svg>
+            </a>
+            <a href="https://x.com/Bookof_Eth" target="_blank" class="social-link" title="X/Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://bookofethereum.com" target="_blank" class="social-link" title="Website">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Verify</h5>
+            <a href="https://basescan.org/address/0x1E2B2360164249B9E45D3D0676294FB81DCBD5aF" target="_blank">Smart Contract</a>
+            <a href="https://basescan.org/address/0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2" target="_blank">Oracle Wallet</a>
+          </div>
+          <div class="footer-col">
+            <h5>Book of Ethereum</h5>
+            <a href="https://bookofethereum.com" target="_blank">Website</a>
+            <a href="https://dexscreener.com/base/booe" target="_blank">$BOOE Token</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>🏛️ Built by the Book of Ethereum community</p>
+        <p class="contract-address">
+          Contract: <code>0x1E2B2360164249B9E45D3D0676294FB81DCBD5aF</code>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

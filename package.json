@@ -1,0 +1,16 @@
+{
+  "name": "oracle-of-booe-dashboard",
+  "version": "1.0.0",
+  "description": "World Cup 2026 Predictions Dashboard - Oracle of BOOE",
+  "scripts": {
+    "export": "node scripts/export-data.js",
+    "dev": "npx serve -p 3000",
+    "deploy": "npm run export && netlify deploy --prod"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
