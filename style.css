@@ -930,7 +930,7 @@ h1, h2, h3, h4, h5 {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 60px;
   margin-bottom: 40px;
 }
@@ -982,8 +982,8 @@ h1, h2, h3, h4, h5 {
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
 }
 
 .footer-col h5 {
