@@ -982,8 +982,8 @@ h1, h2, h3, h4, h5 {
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 40px;
 }
 
 .footer-col h5 {
@@ -1192,4 +1192,37 @@ h1, h2, h3, h4, h5 {
 .prediction-value .flag-img-small {
   vertical-align: middle;
   margin-right: 6px;
+}
+
+/* Ecosystem footer styling */
+.ecosystem-col h5 {
+  margin-bottom: 16px;
+}
+
+.ecosystem-tokens {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.ecosystem-tokens a {
+  color: var(--booe-gold) !important;
+  font-weight: 600;
+}
+
+.ecosystem-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.ecosystem-links a {
+  color: var(--text-muted) !important;
+  font-size: 12px;
+}
+
+.ecosystem-links a:hover {
+  color: var(--booe-purple-light) !important;
 }
