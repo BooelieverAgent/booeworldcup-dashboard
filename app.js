@@ -1,38 +1,32 @@
 // Oracle of BOOE - Dashboard App
 // Fetches prediction data and renders the UI
 
-const FLAGS = {
-  // Full names
-  'Mexico': '🇲🇽', 'South Africa': '🇿🇦', 'Korea Republic': '🇰🇷', 'Czechia': '🇨🇿',
-  'Canada': '🇨🇦', 'Bosnia and Herzegovina': '🇧🇦', 'Qatar': '🇶🇦', 'Switzerland': '🇨🇭',
-  'Brazil': '🇧🇷', 'Morocco': '🇲🇦', 'Haiti': '🇭🇹', 'Scotland': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-  'USA': '🇺🇸', 'Paraguay': '🇵🇾', 'Australia': '🇦🇺', 'Türkiye': '🇹🇷',
-  'Germany': '🇩🇪', 'Curaçao': '🇨🇼', 'Côte d\'Ivoire': '🇨🇮', 'Ecuador': '🇪🇨',
-  'Netherlands': '🇳🇱', 'Japan': '🇯🇵', 'Sweden': '🇸🇪', 'Tunisia': '🇹🇳',
-  'Belgium': '🇧🇪', 'Egypt': '🇪🇬', 'IR Iran': '🇮🇷', 'New Zealand': '🇳🇿',
-  'Spain': '🇪🇸', 'Cabo Verde': '🇨🇻', 'Saudi Arabia': '🇸🇦', 'Uruguay': '🇺🇾',
-  'France': '🇫🇷', 'Senegal': '🇸🇳', 'Iraq': '🇮🇶', 'Norway': '🇳🇴',
-  'Argentina': '🇦🇷', 'Algeria': '🇩🇿', 'Austria': '🇦🇹', 'Jordan': '🇯🇴',
-  'Portugal': '🇵🇹', 'Congo DR': '🇨🇩', 'Uzbekistan': '🇺🇿', 'Colombia': '🇨🇴',
-  'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'Croatia': '🇭🇷', 'Ghana': '🇬🇭', 'Panama': '🇵🇦',
-  // ISO codes
-  'MX': '🇲🇽', 'ZA': '🇿🇦', 'KR': '🇰🇷', 'CZ': '🇨🇿',
-  'CA': '🇨🇦', 'BA': '🇧🇦', 'QA': '🇶🇦', 'CH': '🇨🇭',
-  'BR': '🇧🇷', 'MA': '🇲🇦', 'HT': '🇭🇹', 'SCO': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
-  'US': '🇺🇸', 'PY': '🇵🇾', 'AU': '🇦🇺', 'TR': '🇹🇷',
-  'DE': '🇩🇪', 'CW': '🇨🇼', 'CI': '🇨🇮', 'EC': '🇪🇨',
-  'NL': '🇳🇱', 'JP': '🇯🇵', 'SE': '🇸🇪', 'TN': '🇹🇳',
-  'BE': '🇧🇪', 'EG': '🇪🇬', 'IR': '🇮🇷', 'NZ': '🇳🇿',
-  'ES': '🇪🇸', 'CV': '🇨🇻', 'SA': '🇸🇦', 'UY': '🇺🇾',
-  'FR': '🇫🇷', 'SN': '🇸🇳', 'IQ': '🇮🇶', 'NO': '🇳🇴',
-  'AR': '🇦🇷', 'DZ': '🇩🇿', 'AT': '🇦🇹', 'JO': '🇯🇴',
-  'PT': '🇵🇹', 'CD': '🇨🇩', 'UZ': '🇺🇿', 'CO': '🇨🇴',
-  'ENG': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'HR': '🇭🇷', 'GH': '🇬🇭', 'PA': '🇵🇦',
+// Country code mapping for flag images (using flagcdn.com)
+const COUNTRY_CODES = {
+  'Mexico': 'mx', 'South Africa': 'za', 'Korea Republic': 'kr', 'Czechia': 'cz',
+  'Canada': 'ca', 'Bosnia and Herzegovina': 'ba', 'Qatar': 'qa', 'Switzerland': 'ch',
+  'Brazil': 'br', 'Morocco': 'ma', 'Haiti': 'ht', 'Scotland': 'gb-sct',
+  'USA': 'us', 'Paraguay': 'py', 'Australia': 'au', 'Türkiye': 'tr',
+  'Germany': 'de', 'Curaçao': 'cw', "Côte d'Ivoire": 'ci', 'Ecuador': 'ec',
+  'Netherlands': 'nl', 'Japan': 'jp', 'Sweden': 'se', 'Tunisia': 'tn',
+  'Belgium': 'be', 'Egypt': 'eg', 'IR Iran': 'ir', 'New Zealand': 'nz',
+  'Spain': 'es', 'Cabo Verde': 'cv', 'Saudi Arabia': 'sa', 'Uruguay': 'uy',
+  'France': 'fr', 'Senegal': 'sn', 'Iraq': 'iq', 'Norway': 'no',
+  'Argentina': 'ar', 'Algeria': 'dz', 'Austria': 'at', 'Jordan': 'jo',
+  'Portugal': 'pt', 'Congo DR': 'cd', 'Uzbekistan': 'uz', 'Colombia': 'co',
+  'England': 'gb-eng', 'Croatia': 'hr', 'Ghana': 'gh', 'Panama': 'pa',
 };
 
-// Get flag for team (handles both full names and ISO codes)
+// Get flag image HTML for team
 function getFlag(team) {
-  return FLAGS[team] || '🏳️';
+  const code = COUNTRY_CODES[team] || 'xx';
+  return '<img src="https://flagcdn.com/w40/' + code + '.png" alt="' + team + '" class="flag-img">';
+}
+
+// Get flag for prediction text (smaller)
+function getFlagSmall(team) {
+  const code = COUNTRY_CODES[team] || 'xx';
+  return '<img src="https://flagcdn.com/w20/' + code + '.png" alt="' + team + '" class="flag-img-small">';
 }
 
 let allData = null;
@@ -85,56 +79,19 @@ function renderMatchCard(prediction, match) {
   const awayFlag = getFlag(match.away);
   
   const outcomeText = prediction.predicted_winner === match.home 
-    ? `${homeFlag} ${match.home} Win`
+    ? homeFlag + ' ' + match.home + ' Win'
     : prediction.predicted_winner === match.away
-      ? `${awayFlag} ${match.away} Win`
+      ? awayFlag + ' ' + match.away + ' Win'
       : '🤝 Draw';
   
   let resultHtml = '';
   if (isResolved) {
     const resultClass = isCorrect ? '' : 'wrong-result';
     const resultIcon = isExact ? '🎯 EXACT!' : (isCorrect ? '✅ Correct' : '❌ Wrong');
-    resultHtml = `
-      <div class="match-result ${resultClass}">
-        <span class="result-label">Final Score</span>
-        <span class="result-value">${prediction.actual_score_a} - ${prediction.actual_score_b} ${resultIcon}</span>
-      </div>
-    `;
+    resultHtml = '<div class="match-result ' + resultClass + '"><span class="result-label">Final Score</span><span class="result-value">' + prediction.actual_score_a + ' - ' + prediction.actual_score_b + ' ' + resultIcon + '</span></div>';
   }
   
-  return `
-    <div class="${cardClass}">
-      <div class="match-header">
-        <span class="match-group">Group ${match.group}</span>
-        <span class="match-time">${match.time} UTC</span>
-      </div>
-      <div class="match-teams">
-        <div class="team">
-          <span class="team-flag">${homeFlag}</span>
-          <span class="team-name">${match.home}</span>
-        </div>
-        <span class="match-vs">vs</span>
-        <div class="team">
-          <span class="team-flag">${awayFlag}</span>
-          <span class="team-name">${match.away}</span>
-        </div>
-      </div>
-      <div class="match-prediction">
-        <span class="prediction-label">Oracle Prediction</span>
-        <span class="prediction-value">${outcomeText}</span>
-        <span class="prediction-score">Bonus Score: ${prediction.predicted_score_a}-${prediction.predicted_score_b}</span>
-      </div>
-      ${resultHtml}
-      <div class="match-footer">
-        ${prediction.tx_hash 
-          ? `<a href="https://basescan.org/tx/${prediction.tx_hash}" target="_blank" class="proof-link">
-              ⛓️ View On-Chain Proof
-            </a>` 
-          : '<span class="proof-link">📝 Off-chain</span>'
-        }
-      </div>
-    </div>
-  `;
+  return '<div class="' + cardClass + '"><div class="match-header"><span class="match-group">Group ' + match.group + '</span><span class="match-time">' + match.time + ' UTC</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">' + outcomeText + '</span><span class="prediction-score">Bonus Score: ' + prediction.predicted_score_a + '-' + prediction.predicted_score_b + '</span></div>' + resultHtml + '<div class="match-footer">' + (prediction.tx_hash ? '<a href="https://basescan.org/tx/' + prediction.tx_hash + '" target="_blank" class="proof-link">⛓️ View On-Chain Proof</a>' : '<span class="proof-link">📝 Off-chain</span>') + '</div></div>';
 }
 
 // Render today's matches
@@ -145,19 +102,13 @@ function renderTodayMatches(data) {
   
   dateEl.textContent = formatDate(today);
   
-  // Get today's predictions with match data
   const todayPredictions = data.predictions.filter(p => {
     const match = data.matches.find(m => m.id === p.match_id);
     return match && match.date === today;
   });
   
   if (todayPredictions.length === 0) {
-    container.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">📅</div>
-        <p>No predictions for today yet. Check back later!</p>
-      </div>
-    `;
+    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><p>No predictions for today yet. Check back later!</p></div>';
     return;
   }
   
@@ -168,12 +119,12 @@ function renderTodayMatches(data) {
 }
 
 // Render predictions table
-function renderPredictionsTable(data, filter = 'all') {
+function renderPredictionsTable(data, filter) {
+  filter = filter || 'all';
   const tbody = document.getElementById('predictionsBody');
   
-  let predictions = [...data.predictions];
+  let predictions = data.predictions.slice();
   
-  // Apply filter
   if (filter === 'correct') {
     predictions = predictions.filter(p => p.resolved && p.correct);
   } else if (filter === 'wrong') {
@@ -182,7 +133,6 @@ function renderPredictionsTable(data, filter = 'all') {
     predictions = predictions.filter(p => !p.resolved);
   }
   
-  // Sort by date descending
   predictions.sort((a, b) => {
     const matchA = data.matches.find(m => m.id === a.match_id);
     const matchB = data.matches.find(m => m.id === b.match_id);
@@ -190,14 +140,7 @@ function renderPredictionsTable(data, filter = 'all') {
   });
   
   if (predictions.length === 0) {
-    tbody.innerHTML = `
-      <tr>
-        <td colspan="5" class="empty-state">
-          <div class="empty-state-icon">🔮</div>
-          <p>No predictions match this filter.</p>
-        </td>
-      </tr>
-    `;
+    tbody.innerHTML = '<tr><td colspan="5" class="empty-state"><div class="empty-state-icon">🔮</div><p>No predictions match this filter.</p></td></tr>';
     return;
   }
   
@@ -205,16 +148,11 @@ function renderPredictionsTable(data, filter = 'all') {
     const match = data.matches.find(m => m.id === p.match_id);
     if (!match) return '';
     
-    const homeFlag = getFlag(match.home);
-    const awayFlag = getFlag(match.away);
-    const winnerFlag = p.predicted_winner === match.home ? homeFlag 
-                     : p.predicted_winner === match.away ? awayFlag : '🤝';
+    const homeFlag = getFlagSmall(match.home);
+    const awayFlag = getFlagSmall(match.away);
+    const winnerFlag = p.predicted_winner === match.home ? getFlagSmall(match.home) : p.predicted_winner === match.away ? getFlagSmall(match.away) : '🤝';
     
-    const outcomeText = p.predicted_winner === match.home 
-      ? match.home
-      : p.predicted_winner === match.away
-        ? match.away
-        : 'Draw';
+    const outcomeText = p.predicted_winner === match.home ? match.home : p.predicted_winner === match.away ? match.away : 'Draw';
     
     let resultBadge = '<span class="table-result pending">⏳ Pending</span>';
     if (p.resolved) {
@@ -227,28 +165,9 @@ function renderPredictionsTable(data, filter = 'all') {
       }
     }
     
-    const actualScore = p.resolved ? `${p.actual_score_a}-${p.actual_score_b}` : '-';
+    const actualScore = p.resolved ? p.actual_score_a + '-' + p.actual_score_b : '-';
     
-    return `
-      <tr>
-        <td>
-          <div class="table-match">
-            <span class="table-flag">${homeFlag}</span>
-            <span class="table-teams">${match.home} vs ${match.away}</span>
-            <span class="table-flag">${awayFlag}</span>
-          </div>
-        </td>
-        <td class="table-prediction">${winnerFlag} ${outcomeText}</td>
-        <td class="table-score">${p.predicted_score_a}-${p.predicted_score_b} ${p.resolved ? `(${actualScore})` : ''}</td>
-        <td>${resultBadge}</td>
-        <td>
-          ${p.tx_hash 
-            ? `<a href="https://basescan.org/tx/${p.tx_hash}" target="_blank" class="table-proof">${shortenHash(p.tx_hash)}</a>`
-            : '-'
-          }
-        </td>
-      </tr>
-    `;
+    return '<tr><td><div class="table-match"><span class="table-flag">' + homeFlag + '</span><span class="table-teams">' + match.home + ' vs ' + match.away + '</span><span class="table-flag">' + awayFlag + '</span></div></td><td class="table-prediction">' + winnerFlag + ' ' + outcomeText + '</td><td class="table-score">' + p.predicted_score_a + '-' + p.predicted_score_b + (p.resolved ? ' (' + actualScore + ')' : '') + '</td><td>' + resultBadge + '</td><td>' + (p.tx_hash ? '<a href="https://basescan.org/tx/' + p.tx_hash + '" target="_blank" class="table-proof">' + shortenHash(p.tx_hash) + '</a>' : '-') + '</td></tr>';
   }).join('');
 }
 
@@ -258,16 +177,14 @@ function renderStats(data) {
   const accuracy = stats.resolved > 0 ? Math.round((stats.correct / stats.resolved) * 100) : 0;
   
   document.getElementById('statAccuracy').textContent = accuracy + '%';
-  document.getElementById('statCorrect').textContent = `${stats.correct}/${stats.resolved}`;
+  document.getElementById('statCorrect').textContent = stats.correct + '/' + stats.resolved;
   document.getElementById('statExact').textContent = stats.exactScores;
   document.getElementById('statOnChain').textContent = stats.onChain;
   
-  // Animate accuracy bar
-  setTimeout(() => {
+  setTimeout(function() {
     document.getElementById('accuracyBar').style.width = accuracy + '%';
   }, 300);
   
-  // Calculate breakdown by outcome type
   const homeWins = data.predictions.filter(p => p.resolved && p.predicted_winner === data.matches.find(m => m.id === p.match_id)?.home);
   const awayWins = data.predictions.filter(p => p.resolved && p.predicted_winner === data.matches.find(m => m.id === p.match_id)?.away);
   const draws = data.predictions.filter(p => p.resolved && p.predicted_winner === 'Draw');
@@ -280,11 +197,11 @@ function renderStats(data) {
   const awayPct = awayWins.length > 0 ? Math.round((awayCorrect / awayWins.length) * 100) : 0;
   const drawPct = draws.length > 0 ? Math.round((drawsCorrect / draws.length) * 100) : 0;
   
-  document.getElementById('homeWinPct').textContent = `${homeCorrect}/${homeWins.length} (${homePct}%)`;
-  document.getElementById('awayWinPct').textContent = `${awayCorrect}/${awayWins.length} (${awayPct}%)`;
-  document.getElementById('drawPct').textContent = `${drawsCorrect}/${draws.length} (${drawPct}%)`;
+  document.getElementById('homeWinPct').textContent = homeCorrect + '/' + homeWins.length + ' (' + homePct + '%)';
+  document.getElementById('awayWinPct').textContent = awayCorrect + '/' + awayWins.length + ' (' + awayPct + '%)';
+  document.getElementById('drawPct').textContent = drawsCorrect + '/' + draws.length + ' (' + drawPct + '%)';
   
-  setTimeout(() => {
+  setTimeout(function() {
     document.getElementById('homeWinBar').style.width = homePct + '%';
     document.getElementById('awayWinBar').style.width = awayPct + '%';
     document.getElementById('drawBar').style.width = drawPct + '%';
@@ -293,10 +210,10 @@ function renderStats(data) {
 
 // Setup filter tabs
 function setupFilters() {
-  const tabs = document.querySelectorAll('.filter-tab');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
+  var tabs = document.querySelectorAll('.filter-tab');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.classList.remove('active'); });
       tab.classList.add('active');
       currentFilter = tab.dataset.filter;
       if (allData) {
@@ -313,7 +230,6 @@ async function loadData() {
     const data = await response.json();
     allData = data;
     
-    // Render all sections
     renderHeroStats(data.stats);
     renderTodayMatches(data);
     renderPredictionsTable(data, currentFilter);
@@ -321,31 +237,27 @@ async function loadData() {
     
   } catch (error) {
     console.error('Failed to load data:', error);
-    document.getElementById('todayMatches').innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">⚠️</div>
-        <p>Failed to load predictions. Please try again later.</p>
-      </div>
-    `;
+    document.getElementById('todayMatches').innerHTML = '<div class="empty-state"><div class="empty-state-icon">⚠️</div><p>Failed to load predictions. Please try again later.</p></div>';
   }
 }
 
 // Mobile menu toggle
 function setupMobileMenu() {
-  const btn = document.querySelector('.mobile-menu-btn');
-  const nav = document.querySelector('.nav');
+  var btn = document.querySelector('.mobile-menu-btn');
+  var nav = document.querySelector('.nav');
   
-  btn?.addEventListener('click', () => {
-    nav.classList.toggle('open');
-  });
+  if (btn) {
+    btn.addEventListener('click', function() {
+      nav.classList.toggle('open');
+    });
+  }
 }
 
 // Initialize
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
   setupFilters();
   setupMobileMenu();
   loadData();
   
-  // Refresh data every 5 minutes
   setInterval(loadData, 5 * 60 * 1000);
 });
