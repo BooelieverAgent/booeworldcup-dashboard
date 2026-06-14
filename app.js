@@ -2,6 +2,7 @@
 // Fetches prediction data and renders the UI
 
 const FLAGS = {
+  // Full names
   'Mexico': '🇲🇽', 'South Africa': '🇿🇦', 'Korea Republic': '🇰🇷', 'Czechia': '🇨🇿',
   'Canada': '🇨🇦', 'Bosnia and Herzegovina': '🇧🇦', 'Qatar': '🇶🇦', 'Switzerland': '🇨🇭',
   'Brazil': '🇧🇷', 'Morocco': '🇲🇦', 'Haiti': '🇭🇹', 'Scotland': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
@@ -14,7 +15,25 @@ const FLAGS = {
   'Argentina': '🇦🇷', 'Algeria': '🇩🇿', 'Austria': '🇦🇹', 'Jordan': '🇯🇴',
   'Portugal': '🇵🇹', 'Congo DR': '🇨🇩', 'Uzbekistan': '🇺🇿', 'Colombia': '🇨🇴',
   'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'Croatia': '🇭🇷', 'Ghana': '🇬🇭', 'Panama': '🇵🇦',
+  // ISO codes
+  'MX': '🇲🇽', 'ZA': '🇿🇦', 'KR': '🇰🇷', 'CZ': '🇨🇿',
+  'CA': '🇨🇦', 'BA': '🇧🇦', 'QA': '🇶🇦', 'CH': '🇨🇭',
+  'BR': '🇧🇷', 'MA': '🇲🇦', 'HT': '🇭🇹', 'SCO': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+  'US': '🇺🇸', 'PY': '🇵🇾', 'AU': '🇦🇺', 'TR': '🇹🇷',
+  'DE': '🇩🇪', 'CW': '🇨🇼', 'CI': '🇨🇮', 'EC': '🇪🇨',
+  'NL': '🇳🇱', 'JP': '🇯🇵', 'SE': '🇸🇪', 'TN': '🇹🇳',
+  'BE': '🇧🇪', 'EG': '🇪🇬', 'IR': '🇮🇷', 'NZ': '🇳🇿',
+  'ES': '🇪🇸', 'CV': '🇨🇻', 'SA': '🇸🇦', 'UY': '🇺🇾',
+  'FR': '🇫🇷', 'SN': '🇸🇳', 'IQ': '🇮🇶', 'NO': '🇳🇴',
+  'AR': '🇦🇷', 'DZ': '🇩🇿', 'AT': '🇦🇹', 'JO': '🇯🇴',
+  'PT': '🇵🇹', 'CD': '🇨🇩', 'UZ': '🇺🇿', 'CO': '🇨🇴',
+  'ENG': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'HR': '🇭🇷', 'GH': '🇬🇭', 'PA': '🇵🇦',
 };
+
+// Get flag for team (handles both full names and ISO codes)
+function getFlag(team) {
+  return FLAGS[team] || '🏳️';
+}
 
 let allData = null;
 let currentFilter = 'all';
@@ -62,10 +81,13 @@ function renderMatchCard(prediction, match) {
     cardClass += isCorrect ? ' correct' : ' wrong';
   }
   
+  const homeFlag = getFlag(match.home);
+  const awayFlag = getFlag(match.away);
+  
   const outcomeText = prediction.predicted_winner === match.home 
-    ? `${FLAGS[match.home] || '🏳️'} ${match.home} Win`
+    ? `${homeFlag} ${match.home} Win`
     : prediction.predicted_winner === match.away
-      ? `${FLAGS[match.away] || '🏳️'} ${match.away} Win`
+      ? `${awayFlag} ${match.away} Win`
       : '🤝 Draw';
   
   let resultHtml = '';
@@ -88,12 +110,12 @@ function renderMatchCard(prediction, match) {
       </div>
       <div class="match-teams">
         <div class="team">
-          <span class="team-flag">${FLAGS[match.home] || '🏳️'}</span>
+          <span class="team-flag">${homeFlag}</span>
           <span class="team-name">${match.home}</span>
         </div>
         <span class="match-vs">vs</span>
         <div class="team">
-          <span class="team-flag">${FLAGS[match.away] || '🏳️'}</span>
+          <span class="team-flag">${awayFlag}</span>
           <span class="team-name">${match.away}</span>
         </div>
       </div>
@@ -183,6 +205,11 @@ function renderPredictionsTable(data, filter = 'all') {
     const match = data.matches.find(m => m.id === p.match_id);
     if (!match) return '';
     
+    const homeFlag = getFlag(match.home);
+    const awayFlag = getFlag(match.away);
+    const winnerFlag = p.predicted_winner === match.home ? homeFlag 
+                     : p.predicted_winner === match.away ? awayFlag : '🤝';
+    
     const outcomeText = p.predicted_winner === match.home 
       ? match.home
       : p.predicted_winner === match.away
@@ -206,12 +233,12 @@ function renderPredictionsTable(data, filter = 'all') {
       <tr>
         <td>
           <div class="table-match">
-            <span class="table-flag">${FLAGS[match.home] || '🏳️'}</span>
+            <span class="table-flag">${homeFlag}</span>
             <span class="table-teams">${match.home} vs ${match.away}</span>
-            <span class="table-flag">${FLAGS[match.away] || '🏳️'}</span>
+            <span class="table-flag">${awayFlag}</span>
           </div>
         </td>
-        <td class="table-prediction">${outcomeText}</td>
+        <td class="table-prediction">${winnerFlag} ${outcomeText}</td>
         <td class="table-score">${p.predicted_score_a}-${p.predicted_score_b} ${p.resolved ? `(${actualScore})` : ''}</td>
         <td>${resultBadge}</td>
         <td>
