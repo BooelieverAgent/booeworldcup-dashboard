@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-15T11:00:01.215Z",
+  "generated": "2026-06-15T12:00:01.121Z",
   "stats": {
-    "total": 8,
+    "total": 10,
     "resolved": 8,
     "correct": 3,
     "exactScores": 1,
@@ -136,6 +136,34 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-14T12:00:02.727Z"
+    },
+    {
+      "match_id": "MD1-H1",
+      "home_team": "Spain",
+      "away_team": "Cabo Verde",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:00.710Z"
+    },
+    {
+      "match_id": "MD1-G1",
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "predicted_winner": "Belgium",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.097Z"
     }
   ],
   "matches": [
