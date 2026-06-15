@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-15T12:00:01.121Z",
+  "generated": "2026-06-15T12:55:01.104Z",
   "stats": {
-    "total": 10,
+    "total": 12,
     "resolved": 8,
     "correct": 3,
     "exactScores": 1,
@@ -164,6 +164,34 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-15T12:00:01.097Z"
+    },
+    {
+      "match_id": "MD1-H2",
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
+      "predicted_winner": "Uruguay",
+      "predicted_score_a": 0,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.403Z"
+    },
+    {
+      "match_id": "MD1-G2",
+      "home_team": "IR Iran",
+      "away_team": "New Zealand",
+      "predicted_winner": "IR Iran",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.873Z"
     }
   ],
   "matches": [
