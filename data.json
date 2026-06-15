@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T06:00:01.172Z",
+  "generated": "2026-06-15T07:00:01.968Z",
   "stats": {
-    "total": 13,
+    "total": 8,
     "resolved": 8,
     "correct": 3,
     "exactScores": 1,
-    "onChain": 13,
+    "onChain": 8,
     "accuracy": 38
   },
   "predictions": [
@@ -136,76 +136,6 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-14T12:00:02.727Z"
-    },
-    {
-      "match_id": "MD1-H1",
-      "home_team": "Spain",
-      "away_team": "Cabo Verde",
-      "predicted_winner": "Spain",
-      "predicted_score_a": 2,
-      "predicted_score_b": 1,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x2c102867e00124d3570326c3a474a1c59f51ea64f4aee615f1345eb73d1c44c5",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-14T12:28:35.060Z"
-    },
-    {
-      "match_id": "MD1-G1",
-      "home_team": "Belgium",
-      "away_team": "Egypt",
-      "predicted_winner": "Belgium",
-      "predicted_score_a": 3,
-      "predicted_score_b": 0,
-      "confidence": "MEDIUM ⚡",
-      "tx_hash": "0xbea4022cd7ba953ddde233b7e77b5825bf94b956cc38a6eedcba1743cf39ecb8",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-14T12:28:40.513Z"
-    },
-    {
-      "match_id": "MD1-H2",
-      "home_team": "Saudi Arabia",
-      "away_team": "Uruguay",
-      "predicted_winner": "Uruguay",
-      "predicted_score_a": 0,
-      "predicted_score_b": 2,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0xc9eb45859e978644ae03495d16472c9386105d629e08e4ba61d984903e13d861",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-14T12:28:46.021Z"
-    },
-    {
-      "match_id": "MD1-G2",
-      "home_team": "IR Iran",
-      "away_team": "New Zealand",
-      "predicted_winner": "IR Iran",
-      "predicted_score_a": 2,
-      "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x74265cd9d5fab7f0e7d0c7c918b8c3deb902ac2a952a933e5bb60027d43ce000",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-14T12:28:51.474Z"
-    },
-    {
-      "match_id": "MD1-I1",
-      "home_team": "France",
-      "away_team": "Senegal",
-      "predicted_winner": "France",
-      "predicted_score_a": 3,
-      "predicted_score_b": 1,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x992da2feadf33a537ed49f06d9c047480c4c845bd824532f69b5de2dd3a542dd",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-14T17:18:58.744Z"
     }
   ],
   "matches": [
