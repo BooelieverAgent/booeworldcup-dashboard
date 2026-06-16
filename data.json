@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-16T21:15:03.272Z",
+  "generated": "2026-06-16T22:00:01.093Z",
   "stats": {
-    "total": 15,
-    "resolved": 12,
-    "correct": 3,
-    "exactScores": 1,
-    "onChain": 8,
-    "accuracy": 25
+    "total": 16,
+    "resolved": 13,
+    "correct": 4,
+    "exactScores": 2,
+    "onChain": 15,
+    "accuracy": 31
   },
   "predictions": [
     {
@@ -143,15 +143,15 @@
       "away_team": "Cabo Verde",
       "predicted_winner": "Spain",
       "predicted_score_a": 2,
-      "predicted_score_b": 0,
+      "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "tx_hash": "0x2c102867e00124d3570326c3a474a1c59f51ea64f4aee615f1345eb73d1c44c5",
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T12:00:00.710Z"
+      "created_at": "2026-06-14T12:28:35.060Z"
     },
     {
       "match_id": "MD1-G1",
@@ -160,14 +160,14 @@
       "predicted_winner": "Belgium",
       "predicted_score_a": 3,
       "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0xbea4022cd7ba953ddde233b7e77b5825bf94b956cc38a6eedcba1743cf39ecb8",
       "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 1,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T12:00:01.097Z"
+      "created_at": "2026-06-14T12:28:40.513Z"
     },
     {
       "match_id": "MD1-H2",
@@ -177,13 +177,13 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "tx_hash": "0xc9eb45859e978644ae03495d16472c9386105d629e08e4ba61d984903e13d861",
       "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 1,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T12:00:01.403Z"
+      "created_at": "2026-06-14T12:28:46.021Z"
     },
     {
       "match_id": "MD1-G2",
@@ -193,13 +193,13 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "tx_hash": "0x74265cd9d5fab7f0e7d0c7c918b8c3deb902ac2a952a933e5bb60027d43ce000",
       "resolved": true,
       "actual_score_a": 2,
       "actual_score_b": 2,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T12:00:01.873Z"
+      "created_at": "2026-06-14T12:28:51.474Z"
     },
     {
       "match_id": "MD1-I1",
@@ -209,39 +209,55 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-16T12:00:00.662Z"
+      "tx_hash": "0x992da2feadf33a537ed49f06d9c047480c4c845bd824532f69b5de2dd3a542dd",
+      "resolved": true,
+      "actual_score_a": 3,
+      "actual_score_b": 1,
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-14T17:18:58.744Z"
     },
     {
       "match_id": "MD1-I2",
       "home_team": "Iraq",
       "away_team": "Norway",
       "predicted_winner": "Norway",
-      "predicted_score_a": 1,
+      "predicted_score_a": 0,
       "predicted_score_b": 2,
-      "confidence": "UNCERTAIN 🎲",
-      "tx_hash": null,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x67e8e2fe9d043371f772a4bccd9820b8cc50658ddb3464d500c0952e27ccdb3f",
       "resolved": false,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-16T12:00:01.419Z"
+      "created_at": "2026-06-15T22:00:01.348Z"
     },
     {
       "match_id": "MD1-J1",
       "home_team": "Argentina",
       "away_team": "Algeria",
       "predicted_winner": "Argentina",
-      "predicted_score_a": 2,
-      "predicted_score_b": 1,
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x9f04dadceb603e5f8bf0346e23651df08b6751947418dab52c76f3967db9bed6",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T22:00:02.372Z"
+    },
+    {
+      "match_id": "MD1-J2",
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "predicted_winner": "Austria",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
       "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-16T12:00:02.231Z"
+      "created_at": "2026-06-16T22:00:00.517Z"
     }
   ],
   "matches": [
