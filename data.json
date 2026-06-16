@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-16T00:00:01.273Z",
+  "generated": "2026-06-16T00:15:04.565Z",
   "stats": {
     "total": 15,
     "resolved": 10,
     "correct": 3,
     "exactScores": 1,
-    "onChain": 15,
+    "onChain": 13,
     "accuracy": 30
   },
   "predictions": [
@@ -216,14 +216,14 @@
       "home_team": "Iraq",
       "away_team": "Norway",
       "predicted_winner": "Norway",
-      "predicted_score_a": 0,
+      "predicted_score_a": 1,
       "predicted_score_b": 2,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x67e8e2fe9d043371f772a4bccd9820b8cc50658ddb3464d500c0952e27ccdb3f",
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T22:00:01.348Z"
+      "created_at": "2026-06-15T22:00:01.361Z"
     },
     {
       "match_id": "MD1-J1",
@@ -233,11 +233,11 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x9f04dadceb603e5f8bf0346e23651df08b6751947418dab52c76f3967db9bed6",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-06-15T22:00:02.372Z"
+      "created_at": "2026-06-15T22:00:02.254Z"
     }
   ],
   "matches": [
