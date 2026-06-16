@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-16T11:00:01.124Z",
+  "generated": "2026-06-16T11:28:43.297Z",
   "stats": {
-    "total": 15,
+    "total": 16,
     "resolved": 12,
     "correct": 3,
     "exactScores": 1,
-    "onChain": 15,
+    "onChain": 16,
     "accuracy": 25
   },
   "predictions": [
@@ -242,6 +242,22 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-15T22:00:02.372Z"
+    },
+    {
+      "match_id": "MD1-J2",
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "predicted_winner": "Austria",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x0fe979a522da2183709241710d1233337e483baa007ebd044c26b98e688379b3",
+      "resolved": false,
+      "actual_score_a": null,
+      "actual_score_b": null,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-16T11:27:36.240Z"
     }
   ],
   "matches": [
