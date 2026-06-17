@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-17T22:00:01.559Z",
+  "generated": "2026-06-17T22:00:07.688Z",
   "stats": {
-    "total": 21,
+    "total": 22,
     "resolved": 17,
     "correct": 7,
     "exactScores": 3,
-    "onChain": 21,
+    "onChain": 22,
     "accuracy": 41
   },
   "predictions": [
@@ -336,6 +336,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-17T22:00:01.559Z"
+    },
+    {
+      "match_id": "MD2-B1",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "Switzerland",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x2c39d6acf9d6d9276fc2f7826d95c9f7770b17e59aaa1df73d51ef9e97064c6c",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:07.688Z"
     }
   ],
   "matches": [
