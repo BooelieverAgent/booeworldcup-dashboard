@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-17T22:00:07.688Z",
+  "generated": "2026-06-17T22:00:11.303Z",
   "stats": {
-    "total": 22,
+    "total": 23,
     "resolved": 17,
     "correct": 7,
     "exactScores": 3,
-    "onChain": 22,
+    "onChain": 23,
     "accuracy": 41
   },
   "predictions": [
@@ -350,6 +350,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-17T22:00:07.688Z"
+    },
+    {
+      "match_id": "MD2-B2",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "predicted_winner": "Qatar",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x9e79373ace65d6faf4d4a13d0ded7f2964fb00bb5377663f73c409284fc1b97a",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:11.303Z"
     }
   ],
   "matches": [
