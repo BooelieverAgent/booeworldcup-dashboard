@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-17T01:00:01.450Z",
+  "generated": "2026-06-17T02:00:01.495Z",
   "stats": {
     "total": 20,
-    "resolved": 13,
-    "correct": 4,
+    "resolved": 14,
+    "correct": 5,
     "exactScores": 2,
-    "onChain": 20,
-    "accuracy": 31
+    "onChain": 15,
+    "accuracy": 36
   },
   "predictions": [
     {
@@ -225,9 +225,11 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x67e8e2fe9d043371f772a4bccd9820b8cc50658ddb3464d500c0952e27ccdb3f",
-      "resolved": false,
-      "correct": false,
+      "tx_hash": null,
+      "resolved": true,
+      "actual_score_a": 1,
+      "actual_score_b": 4,
+      "correct": true,
       "exact_score": false,
       "created_at": "2026-06-15T22:00:01.361Z"
     },
@@ -239,7 +241,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x9f04dadceb603e5f8bf0346e23651df08b6751947418dab52c76f3967db9bed6",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
@@ -253,7 +255,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x0fe979a522da2183709241710d1233337e483baa007ebd044c26b98e688379b3",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
@@ -267,7 +269,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x692933a3ff53bb6bc273ace3a294ca0c72896a935223738316f1184ce035b954",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
@@ -295,7 +297,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 2,
       "confidence": "MEDIUM ⚡",
-      "tx_hash": "0xea928027705f4b3e79f3799981d6a0be1fce6f928e3819f5971ae4b0c276b567",
+      "tx_hash": null,
       "resolved": false,
       "correct": false,
       "exact_score": false,
