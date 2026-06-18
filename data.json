@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-18T22:00:08.506Z",
+  "generated": "2026-06-18T22:00:11.981Z",
   "stats": {
-    "total": 26,
+    "total": 27,
     "resolved": 21,
     "correct": 9,
     "exactScores": 3,
-    "onChain": 26,
+    "onChain": 27,
     "accuracy": 43
   },
   "predictions": [
@@ -414,6 +414,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-18T22:00:08.506Z"
+    },
+    {
+      "match_id": "MD2-C2",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "predicted_winner": "Brazil",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x10f6805aa1a560e7f1f20358d94a2bf29d04f4de8e3fa561def52d078d47a401",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:11.980Z"
     }
   ],
   "matches": [
