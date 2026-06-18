@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-18T22:00:11.981Z",
+  "generated": "2026-06-18T22:00:15.475Z",
   "stats": {
-    "total": 27,
+    "total": 28,
     "resolved": 21,
     "correct": 9,
     "exactScores": 3,
-    "onChain": 27,
+    "onChain": 28,
     "accuracy": 43
   },
   "predictions": [
@@ -428,6 +428,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-18T22:00:11.980Z"
+    },
+    {
+      "match_id": "MD2-D2",
+      "home_team": "Türkiye",
+      "away_team": "Paraguay",
+      "predicted_winner": "Türkiye",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x242efba477b114ef72c5bed598f0de939fa235b7e176a31db385b510eda1209a",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:15.474Z"
     }
   ],
   "matches": [
