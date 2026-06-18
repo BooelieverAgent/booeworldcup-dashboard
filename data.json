@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-18T22:00:05.679Z",
+  "generated": "2026-06-18T22:00:08.506Z",
   "stats": {
-    "total": 25,
+    "total": 26,
     "resolved": 21,
     "correct": 9,
     "exactScores": 3,
-    "onChain": 25,
+    "onChain": 26,
     "accuracy": 43
   },
   "predictions": [
@@ -400,6 +400,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-18T22:00:05.678Z"
+    },
+    {
+      "match_id": "MD2-C1",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "predicted_winner": "Morocco",
+      "predicted_score_a": 0,
+      "predicted_score_b": 3,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x71e1af2e103ff0b423a7a3569583c02ec28faae11f4009c1ddbc04054cb31f5e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:08.506Z"
     }
   ],
   "matches": [
