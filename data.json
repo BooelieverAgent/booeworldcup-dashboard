@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-18T20:00:01.477Z",
+  "generated": "2026-06-18T20:00:03.716Z",
   "stats": {
     "total": 24,
-    "resolved": 20,
+    "resolved": 21,
     "correct": 9,
     "exactScores": 3,
     "onChain": 24,
-    "accuracy": 45
+    "accuracy": 43
   },
   "predictions": [
     {
@@ -338,7 +338,9 @@
       "predicted_score_b": 0,
       "confidence": "UNCERTAIN 🎲",
       "tx_hash": "0x635e6e4a8870586a99372b700b204871f750a62e8c4dae9a3fbbf32a6761cf93",
-      "resolved": false,
+      "resolved": true,
+      "actual_score_a": 1,
+      "actual_score_b": 1,
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-17T22:00:01.559Z"
