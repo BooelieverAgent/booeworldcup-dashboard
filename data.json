@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-19T22:00:04.259Z",
+  "generated": "2026-06-19T22:00:06.141Z",
   "stats": {
-    "total": 29,
+    "total": 30,
     "resolved": 25,
     "correct": 12,
     "exactScores": 3,
-    "onChain": 29,
+    "onChain": 30,
     "accuracy": 48
   },
   "predictions": [
@@ -464,6 +464,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-19T22:00:01.346Z"
+    },
+    {
+      "match_id": "MD2-E1",
+      "home_team": "Germany",
+      "away_team": "Côte d'Ivoire",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 1,
+      "predicted_score_b": 1,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x1a87242be090895561579f8d01f670b4a544b9a514ff9b9a6a8b99f2f405c9eb",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-19T22:00:06.141Z"
     }
   ],
   "matches": [
