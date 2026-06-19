@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-19T22:00:01.097Z",
+  "generated": "2026-06-19T22:00:01.347Z",
   "stats": {
-    "total": 28,
+    "total": 29,
     "resolved": 24,
     "correct": 11,
     "exactScores": 3,
-    "onChain": 28,
+    "onChain": 29,
     "accuracy": 46
   },
   "predictions": [
@@ -448,6 +448,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-18T22:00:15.474Z"
+    },
+    {
+      "match_id": "MD2-F1",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "predicted_winner": "Netherlands",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x33b693cc47c67512a6f4eaacf0e631726cd039219399791a77f3c3e08858d5d1",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-19T22:00:01.346Z"
     }
   ],
   "matches": [
