@@ -32,9 +32,11 @@ function getFlagSmall(team) {
 let allData = null;
 let currentFilter = 'all';
 
-// Format date nicely
+// Format date nicely (parse as ET to avoid timezone shift)
 function formatDate(dateStr) {
-  const date = new Date(dateStr);
+  // Parse the date string as local (ET) to avoid UTC conversion issues
+  const [year, month, day] = dateStr.split('-').map(Number);
+  const date = new Date(year, month - 1, day); // month is 0-indexed
   return date.toLocaleDateString('en-US', { 
     weekday: 'long', 
     year: 'numeric', 
@@ -43,9 +45,13 @@ function formatDate(dateStr) {
   });
 }
 
-// Get today's date in YYYY-MM-DD format
+// Get today's date in YYYY-MM-DD format (Eastern Time)
 function getToday() {
-  return new Date().toISOString().split('T')[0];
+  // Use Eastern Time since match dates are in ET
+  const now = new Date();
+  const etOptions = { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' };
+  const etDate = now.toLocaleDateString('en-CA', etOptions); // en-CA gives YYYY-MM-DD format
+  return etDate;
 }
 
 // Shorten tx hash
@@ -100,7 +106,7 @@ function renderTodayMatches(data) {
   const dateEl = document.getElementById('todayDate');
   const today = getToday();
   
-  dateEl.textContent = formatDate(today);
+  dateEl.textContent = formatDate(today) + ' (ET)';
   
   const todayPredictions = data.predictions.filter(p => {
     const match = data.matches.find(m => m.id === p.match_id);
