@@ -54,6 +54,30 @@ function getToday() {
   return etDate;
 }
 
+// Get tomorrow's date in YYYY-MM-DD format (Eastern Time)
+function getTomorrow() {
+  const now = new Date();
+  now.setDate(now.getDate() + 1);
+  const etOptions = { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' };
+  const etDate = now.toLocaleDateString('en-CA', etOptions);
+  return etDate;
+}
+
+// Check if a match is within the next 24 hours
+function isWithin24Hours(matchDate, matchTime) {
+  const now = new Date();
+  const etNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+  
+  const [year, month, day] = matchDate.split('-').map(Number);
+  const [hours, minutes] = (matchTime || '12:00').split(':').map(Number);
+  const matchDateTime = new Date(year, month - 1, day, hours, minutes);
+  
+  const diffMs = matchDateTime - etNow;
+  const diffHours = diffMs / (1000 * 60 * 60);
+  
+  return diffHours >= -2 && diffHours <= 24; // Include matches from 2 hours ago to 24 hours from now
+}
+
 // Shorten tx hash
 function shortenHash(hash) {
   if (!hash) return '';
@@ -105,20 +129,32 @@ function renderTodayMatches(data) {
   const container = document.getElementById('todayMatches');
   const dateEl = document.getElementById('todayDate');
   const today = getToday();
+  const tomorrow = getTomorrow();
   
   dateEl.textContent = formatDate(today) + ' (ET)';
   
-  const todayPredictions = data.predictions.filter(p => {
+  // Get matches within next 24 hours (today + early tomorrow)
+  const upcomingPredictions = data.predictions.filter(p => {
     const match = data.matches.find(m => m.id === p.match_id);
-    return match && match.date === today;
+    if (!match) return false;
+    return isWithin24Hours(match.date, match.time);
   });
   
-  if (todayPredictions.length === 0) {
+  // Sort by match time
+  upcomingPredictions.sort((a, b) => {
+    const matchA = data.matches.find(m => m.id === a.match_id);
+    const matchB = data.matches.find(m => m.id === b.match_id);
+    const dateTimeA = new Date(matchA.date + 'T' + (matchA.time || '12:00'));
+    const dateTimeB = new Date(matchB.date + 'T' + (matchB.time || '12:00'));
+    return dateTimeA - dateTimeB;
+  });
+  
+  if (upcomingPredictions.length === 0) {
     container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><p>No predictions for today yet. Check back later!</p></div>';
     return;
   }
   
-  container.innerHTML = todayPredictions.map(p => {
+  container.innerHTML = upcomingPredictions.map(p => {
     const match = data.matches.find(m => m.id === p.match_id);
     return renderMatchCard(p, match);
   }).join('');
