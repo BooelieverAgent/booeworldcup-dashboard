@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-20T22:00:01.759Z",
+  "generated": "2026-06-20T22:00:03.335Z",
   "stats": {
-    "total": 32,
+    "total": 33,
     "resolved": 29,
     "correct": 15,
     "exactScores": 3,
-    "onChain": 30,
+    "onChain": 31,
     "accuracy": 52
   },
   "predictions": [
@@ -514,6 +514,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-20T22:00:00.476Z"
+    },
+    {
+      "match_id": "MD2-H1",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xd18be5310beca973edeb87595012547addf70eaffbf723fd6998d45fa941b7fb",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:03.334Z"
     }
   ],
   "matches": [
