@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-21T22:00:03.244Z",
+  "generated": "2026-06-21T22:00:05.956Z",
   "stats": {
-    "total": 37,
+    "total": 38,
     "resolved": 34,
     "correct": 16,
     "exactScores": 3,
@@ -594,6 +594,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-21T22:00:03.243Z"
+    },
+    {
+      "match_id": "MD2-I1",
+      "home_team": "France",
+      "away_team": "Iraq",
+      "predicted_winner": "France",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-21T22:00:05.955Z"
     }
   ],
   "matches": [
