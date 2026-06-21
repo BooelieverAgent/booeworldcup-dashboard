@@ -531,7 +531,7 @@
       "confidence": "HIGH 🔥",
       "tx_hash": "0xd18be5310beca973edeb87595012547addf70eaffbf723fd6998d45fa941b7fb",
       "resolved": true,
-      "actual_score_a": 5,
+      "actual_score_a": 4,
       "actual_score_b": 0,
       "correct": true,
       "exact_score": false,
