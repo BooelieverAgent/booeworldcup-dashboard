@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T14:00:01.201Z",
+  "generated": "2026-06-21T15:00:01.244Z",
   "stats": {
     "total": 36,
     "resolved": 32,
@@ -497,7 +497,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
