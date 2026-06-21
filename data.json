@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-21T22:00:01.252Z",
+  "generated": "2026-06-21T22:00:03.244Z",
   "stats": {
-    "total": 36,
+    "total": 37,
     "resolved": 34,
     "correct": 16,
     "exactScores": 3,
-    "onChain": 34,
+    "onChain": 35,
     "accuracy": 47
   },
   "predictions": [
@@ -580,6 +580,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-20T22:00:16.390Z"
+    },
+    {
+      "match_id": "MD2-J1",
+      "home_team": "Argentina",
+      "away_team": "Austria",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xc81f957ec03580e60c1ae1614723ed9f947b7c1c8811963b6d1893f064cc85ab",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-21T22:00:03.243Z"
     }
   ],
   "matches": [
