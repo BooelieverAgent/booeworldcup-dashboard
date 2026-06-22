@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-22T22:00:13.283Z",
+  "generated": "2026-06-22T22:00:16.174Z",
   "stats": {
-    "total": 42,
+    "total": 43,
     "resolved": 37,
     "correct": 18,
     "exactScores": 3,
-    "onChain": 39,
+    "onChain": 40,
     "accuracy": 49
   },
   "predictions": [
@@ -670,6 +670,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-22T22:00:13.282Z"
+    },
+    {
+      "match_id": "MD2-L2",
+      "home_team": "Panama",
+      "away_team": "Croatia",
+      "predicted_winner": "Croatia",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x797a3ab5b6c92cbcca97696c7bed800afb7815f38be28c7a65fa3f9cb28a93ae",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:16.173Z"
     }
   ],
   "matches": [
