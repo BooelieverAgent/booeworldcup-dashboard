@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-22T22:00:02.020Z",
+  "generated": "2026-06-22T22:00:05.857Z",
   "stats": {
-    "total": 40,
+    "total": 41,
     "resolved": 37,
     "correct": 18,
     "exactScores": 3,
-    "onChain": 37,
+    "onChain": 38,
     "accuracy": 49
   },
   "predictions": [
@@ -642,6 +642,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-21T22:00:21.630Z"
+    },
+    {
+      "match_id": "MD2-K1",
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "predicted_winner": "Portugal",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xbedee113bc3fa97ec542d8dafd334ca149f3aabbacaea63a34a791be8255062c",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:05.857Z"
     }
   ],
   "matches": [
