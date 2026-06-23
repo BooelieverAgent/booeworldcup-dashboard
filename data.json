@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T22:00:25.582Z",
+  "generated": "2026-06-23T22:00:32.965Z",
   "stats": {
-    "total": 49,
+    "total": 50,
     "resolved": 41,
     "correct": 21,
     "exactScores": 4,
-    "onChain": 46,
+    "onChain": 47,
     "accuracy": 51
   },
   "predictions": [
@@ -776,6 +776,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-23T22:00:25.581Z"
+    },
+    {
+      "match_id": "MD3-A2",
+      "home_team": "South Africa",
+      "away_team": "Korea Republic",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 1,
+      "predicted_score_b": 1,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0xf45802f14fa7982451d02ef422907e5c736698c95d4f7bad6c753e4ead24d6c6",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:32.964Z"
     }
   ],
   "matches": [
