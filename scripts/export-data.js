@@ -3,16 +3,26 @@
 
 const path = require('path');
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 // Paths
 const BOT_DIR = path.join(__dirname, '../../oracle-bot');
 const DB_PATH = path.join(BOT_DIR, 'oracle-data.json');
 const OUTPUT_PATH = path.join(__dirname, '../data.json');
 
+// STEP 1: Sync any missing tx_hashes from blockchain BEFORE loading data
+console.log('🔄 Step 1: Syncing tx_hashes from blockchain...');
+try {
+  execSync('node sync-txhashes.js', { cwd: BOT_DIR, stdio: 'inherit' });
+} catch (err) {
+  console.log('⚠️  Sync warning (continuing anyway):', err.message);
+}
+
 // Load fixtures
 const { GROUP_STAGE_MATCHES } = require(path.join(BOT_DIR, 'fixtures.js'));
 
-// Load database
+// STEP 2: Load database (now with synced tx_hashes)
+console.log('\n📦 Step 2: Loading database...');
 let dbData = { predictions: {} };
 if (fs.existsSync(DB_PATH)) {
   try {
