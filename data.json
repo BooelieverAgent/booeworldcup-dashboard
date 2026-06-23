@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T21:15:04.184Z",
+  "generated": "2026-06-23T22:00:01.482Z",
   "stats": {
-    "total": 44,
+    "total": 45,
     "resolved": 41,
     "correct": 21,
     "exactScores": 4,
-    "onChain": 44,
+    "onChain": 42,
     "accuracy": 51
   },
   "predictions": [
@@ -497,7 +497,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
@@ -609,7 +609,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
@@ -706,6 +706,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-22T22:00:23.623Z"
+    },
+    {
+      "match_id": "MD3-B1",
+      "home_team": "Switzerland",
+      "away_team": "Canada",
+      "predicted_winner": "Canada",
+      "predicted_score_a": 2,
+      "predicted_score_b": 3,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x6087a026c943f2fbc75aec8ed01b33d8886055bc596a9faf6db6e19c07a5db36",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:01.481Z"
     }
   ],
   "matches": [
