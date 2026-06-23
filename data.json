@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-23T20:00:01.409Z",
+  "generated": "2026-06-23T20:00:02.265Z",
   "stats": {
     "total": 44,
-    "resolved": 40,
-    "correct": 20,
+    "resolved": 41,
+    "correct": 21,
     "exactScores": 4,
-    "onChain": 44,
-    "accuracy": 50
+    "onChain": 41,
+    "accuracy": 51
   },
   "predictions": [
     {
@@ -497,7 +497,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
@@ -609,7 +609,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
@@ -658,8 +658,10 @@
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
       "tx_hash": "0xbedee113bc3fa97ec542d8dafd334ca149f3aabbacaea63a34a791be8255062c",
-      "resolved": false,
-      "correct": false,
+      "resolved": true,
+      "actual_score_a": 5,
+      "actual_score_b": 0,
+      "correct": true,
       "exact_score": false,
       "created_at": "2026-06-22T22:00:05.857Z"
     },
