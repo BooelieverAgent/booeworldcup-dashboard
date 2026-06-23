@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T22:00:09.334Z",
+  "generated": "2026-06-23T22:00:10.557Z",
   "stats": {
-    "total": 45,
+    "total": 47,
     "resolved": 41,
     "correct": 21,
     "exactScores": 4,
-    "onChain": 45,
+    "onChain": 44,
     "accuracy": 51
   },
   "predictions": [
@@ -497,7 +497,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
@@ -609,7 +609,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
@@ -720,6 +720,34 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-23T22:00:01.481Z"
+    },
+    {
+      "match_id": "MD3-B2",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Qatar",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 2,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x9474161dcc45f9cbf18514fa77aa1477b25c9ff8e317b10e68a25a9a7301d068",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:07.690Z"
+    },
+    {
+      "match_id": "MD3-C1",
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "predicted_winner": "Morocco",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xd223f9b2c3a5a323b8743ce1dfed3a8c503638cbd9ad708ee05884f38016abe9",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:10.557Z"
     }
   ],
   "matches": [
