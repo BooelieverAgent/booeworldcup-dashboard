@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T22:00:18.028Z",
+  "generated": "2026-06-23T22:00:25.582Z",
   "stats": {
-    "total": 48,
+    "total": 49,
     "resolved": 41,
     "correct": 21,
     "exactScores": 4,
-    "onChain": 45,
+    "onChain": 46,
     "accuracy": 51
   },
   "predictions": [
@@ -762,6 +762,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-23T22:00:18.027Z"
+    },
+    {
+      "match_id": "MD3-A1",
+      "home_team": "Czechia",
+      "away_team": "Mexico",
+      "predicted_winner": "Mexico",
+      "predicted_score_a": 2,
+      "predicted_score_b": 3,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x4c99c3916a8c8d356589f1d6ccc648fe1033bd759b99939448b0d88568ea0fcc",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:25.581Z"
     }
   ],
   "matches": [
