@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T22:00:10.557Z",
+  "generated": "2026-06-23T22:00:18.028Z",
   "stats": {
-    "total": 47,
+    "total": 48,
     "resolved": 41,
     "correct": 21,
     "exactScores": 4,
-    "onChain": 44,
+    "onChain": 45,
     "accuracy": 51
   },
   "predictions": [
@@ -748,6 +748,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-23T22:00:10.557Z"
+    },
+    {
+      "match_id": "MD3-C2",
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "predicted_score_a": 0,
+      "predicted_score_b": 3,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x9e353e084a4da60b7e49e4bbfefe4cc441daa6d851be8801c29fc5a8635a3b6d",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:18.027Z"
     }
   ],
   "matches": [
