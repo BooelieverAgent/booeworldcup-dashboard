@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-24T22:00:20.226Z",
+  "generated": "2026-06-24T22:00:27.567Z",
   "stats": {
-    "total": 54,
+    "total": 55,
     "resolved": 46,
     "correct": 23,
     "exactScores": 4,
-    "onChain": 49,
+    "onChain": 50,
     "accuracy": 50
   },
   "predictions": [
@@ -856,6 +856,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-24T22:00:20.225Z"
+    },
+    {
+      "match_id": "MD3-D1",
+      "home_team": "Türkiye",
+      "away_team": "USA",
+      "predicted_winner": "Türkiye",
+      "predicted_score_a": 1,
+      "predicted_score_b": 0,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x08585d62a3d43958812935c8834a54196e0444c8d6e3c365741e45278d47a88b",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:27.566Z"
     }
   ],
   "matches": [
