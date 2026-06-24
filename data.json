@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-24T22:00:08.671Z",
+  "generated": "2026-06-24T22:00:11.464Z",
   "stats": {
-    "total": 51,
+    "total": 52,
     "resolved": 45,
     "correct": 23,
     "exactScores": 4,
@@ -812,6 +812,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-24T22:00:08.670Z"
+    },
+    {
+      "match_id": "MD3-E2",
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "predicted_winner": "Germany",
+      "predicted_score_a": 1,
+      "predicted_score_b": 3,
+      "confidence": "HIGH 🔥",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:11.463Z"
     }
   ],
   "matches": [
