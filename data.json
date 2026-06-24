@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-24T22:00:17.431Z",
+  "generated": "2026-06-24T22:00:20.226Z",
   "stats": {
-    "total": 53,
+    "total": 54,
     "resolved": 46,
     "correct": 23,
     "exactScores": 4,
@@ -842,6 +842,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-24T22:00:17.430Z"
+    },
+    {
+      "match_id": "MD3-F2",
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "predicted_winner": "Netherlands",
+      "predicted_score_a": 1,
+      "predicted_score_b": 3,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": null,
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:20.225Z"
     }
   ],
   "matches": [
