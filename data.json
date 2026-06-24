@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-24T22:00:02.439Z",
+  "generated": "2026-06-24T22:00:08.671Z",
   "stats": {
-    "total": 50,
+    "total": 51,
     "resolved": 45,
     "correct": 23,
     "exactScores": 4,
-    "onChain": 47,
+    "onChain": 48,
     "accuracy": 51
   },
   "predictions": [
@@ -798,6 +798,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-23T22:00:32.964Z"
+    },
+    {
+      "match_id": "MD3-E1",
+      "home_team": "Curaçao",
+      "away_team": "Côte d'Ivoire",
+      "predicted_winner": "Côte d'Ivoire",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xd1d3efbf2fd4d8b50971d3311e248b4e555cadd8377c7e5bbb0a675258dcaa35",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:08.670Z"
     }
   ],
   "matches": [
