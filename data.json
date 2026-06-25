@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-25T22:00:06.609Z",
+  "generated": "2026-06-25T22:00:09.514Z",
   "stats": {
-    "total": 57,
+    "total": 58,
     "resolved": 50,
     "correct": 26,
     "exactScores": 5,
-    "onChain": 52,
+    "onChain": 53,
     "accuracy": 52
   },
   "predictions": [
@@ -906,6 +906,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:06.608Z"
+    },
+    {
+      "match_id": "MD3-I2",
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "predicted_winner": "Senegal",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x9e1e4e4dd59568418aed6ac726233abcf91cfff700c18dbe561cbce09c2600e7",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:09.513Z"
     }
   ],
   "matches": [
