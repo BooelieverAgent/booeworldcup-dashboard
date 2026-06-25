@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-25T22:00:09.514Z",
+  "generated": "2026-06-25T22:00:12.855Z",
   "stats": {
-    "total": 58,
+    "total": 59,
     "resolved": 50,
     "correct": 26,
     "exactScores": 5,
-    "onChain": 53,
+    "onChain": 54,
     "accuracy": 52
   },
   "predictions": [
@@ -920,6 +920,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:09.513Z"
+    },
+    {
+      "match_id": "MD3-H1",
+      "home_team": "Cabo Verde",
+      "away_team": "Saudi Arabia",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 2,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x243449c70f5e9caf88820cf717ea3ae85d36275f912f458a229542b4ed514da3",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:12.855Z"
     }
   ],
   "matches": [
