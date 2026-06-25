@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-25T22:00:23.499Z",
+  "generated": "2026-06-25T22:00:30.854Z",
   "stats": {
-    "total": 61,
+    "total": 62,
     "resolved": 50,
     "correct": 26,
     "exactScores": 5,
-    "onChain": 56,
+    "onChain": 57,
     "accuracy": 52
   },
   "predictions": [
@@ -962,6 +962,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:23.498Z"
+    },
+    {
+      "match_id": "MD3-G2",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "predicted_winner": "Belgium",
+      "predicted_score_a": 0,
+      "predicted_score_b": 3,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x18853277bf6adb4c3726d1d790e128aeb89b120f14d26beb60703b57c5651150",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:30.853Z"
     }
   ],
   "matches": [
