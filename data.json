@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-26T21:15:03.302Z",
+  "generated": "2026-06-26T22:00:01.227Z",
   "stats": {
-    "total": 62,
+    "total": 63,
     "resolved": 56,
     "correct": 29,
     "exactScores": 6,
-    "onChain": 62,
+    "onChain": 58,
     "accuracy": 52
   },
   "predictions": [
@@ -497,7 +497,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 0,
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
@@ -609,7 +609,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
@@ -833,7 +833,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "tx_hash": "0xb90cd6f5d8be4dbaf0fe33d330a752eec2e0f4806b255f2cf4cb4db645ecd549",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 2,
       "actual_score_b": 1,
@@ -865,7 +865,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "MEDIUM ⚡",
-      "tx_hash": "0xc6c50365e1a437784daac100323c0ed96259a576ad05eecc4608e2780e68d00a",
+      "tx_hash": null,
       "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 3,
@@ -988,6 +988,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:30.853Z"
+    },
+    {
+      "match_id": "MD3-L1",
+      "home_team": "Panama",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "predicted_score_a": 0,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x0e7151bb49908b9f119e002f24691df152b7761a8f2027eddf25ec4ffda28f52",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:01.226Z"
     }
   ],
   "matches": [
