@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-26T22:00:21.277Z",
+  "generated": "2026-06-26T22:00:28.554Z",
   "stats": {
-    "total": 67,
+    "total": 68,
     "resolved": 58,
     "correct": 31,
     "exactScores": 6,
-    "onChain": 61,
+    "onChain": 62,
     "accuracy": 53
   },
   "predictions": [
@@ -1062,6 +1062,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-26T22:00:21.276Z"
+    },
+    {
+      "match_id": "MD3-J2",
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 0,
+      "predicted_score_b": 3,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x83c09a1e831c1d9d2f03232e6d425959997ef970e343242dbf7f2919adbb549a",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:28.553Z"
     }
   ],
   "matches": [
