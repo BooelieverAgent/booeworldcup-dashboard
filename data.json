@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-26T22:00:10.949Z",
+  "generated": "2026-06-26T22:00:13.840Z",
   "stats": {
-    "total": 65,
+    "total": 66,
     "resolved": 58,
     "correct": 31,
     "exactScores": 6,
-    "onChain": 59,
+    "onChain": 60,
     "accuracy": 53
   },
   "predictions": [
@@ -1034,6 +1034,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-26T22:00:10.947Z"
+    },
+    {
+      "match_id": "MD3-K2",
+      "home_team": "Congo DR",
+      "away_team": "Uzbekistan",
+      "predicted_winner": "Congo DR",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x556d0786a3a30ad29620fddf4732dd2053021dfedc2e50cd845d3615cef07d79",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:13.838Z"
     }
   ],
   "matches": [
