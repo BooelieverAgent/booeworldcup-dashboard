@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-26T22:00:08.384Z",
+  "generated": "2026-06-26T22:00:09.944Z",
   "stats": {
-    "total": 64,
-    "resolved": 58,
-    "correct": 31,
+    "total": 63,
+    "resolved": 56,
+    "correct": 29,
     "exactScores": 6,
-    "onChain": 59,
-    "accuracy": 53
+    "onChain": 62,
+    "accuracy": 52
   },
   "predictions": [
     {
@@ -513,7 +513,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": null,
+      "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
       "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 4,
@@ -609,7 +609,7 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
@@ -833,7 +833,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "tx_hash": null,
+      "tx_hash": "0xb90cd6f5d8be4dbaf0fe33d330a752eec2e0f4806b255f2cf4cb4db645ecd549",
       "resolved": true,
       "actual_score_a": 2,
       "actual_score_b": 1,
@@ -865,7 +865,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "MEDIUM ⚡",
-      "tx_hash": null,
+      "tx_hash": "0xc6c50365e1a437784daac100323c0ed96259a576ad05eecc4608e2780e68d00a",
       "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 3,
@@ -914,10 +914,8 @@
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
       "tx_hash": "0xb8f5968bf3fb5f147c3df30961eead52c6da5e0f2c54146b686bf595c4aaa236",
-      "resolved": true,
-      "actual_score_a": 1,
-      "actual_score_b": 4,
-      "correct": true,
+      "resolved": false,
+      "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:06.608Z"
     },
@@ -930,10 +928,8 @@
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
       "tx_hash": "0x9e1e4e4dd59568418aed6ac726233abcf91cfff700c18dbe561cbce09c2600e7",
-      "resolved": true,
-      "actual_score_a": 5,
-      "actual_score_b": 0,
-      "correct": true,
+      "resolved": false,
+      "correct": false,
       "exact_score": false,
       "created_at": "2026-06-25T22:00:09.513Z"
     },
@@ -1006,20 +1002,6 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-26T22:00:01.226Z"
-    },
-    {
-      "match_id": "MD3-L2",
-      "home_team": "Croatia",
-      "away_team": "Ghana",
-      "predicted_winner": "Croatia",
-      "predicted_score_a": 3,
-      "predicted_score_b": 1,
-      "confidence": "MEDIUM ⚡",
-      "tx_hash": "0xa0c2ef90a44e0ec76e69f4e212a73c52b021ae24ccbe14ab1e40001920461cc6",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-06-26T22:00:08.383Z"
     }
   ],
   "matches": [
