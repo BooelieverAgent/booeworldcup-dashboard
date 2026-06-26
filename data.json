@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-26T22:00:13.840Z",
+  "generated": "2026-06-26T22:00:21.277Z",
   "stats": {
-    "total": 66,
+    "total": 67,
     "resolved": 58,
     "correct": 31,
     "exactScores": 6,
-    "onChain": 60,
+    "onChain": 61,
     "accuracy": 53
   },
   "predictions": [
@@ -1048,6 +1048,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-26T22:00:13.838Z"
+    },
+    {
+      "match_id": "MD3-J1",
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "predicted_winner": "Austria",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x3c8df3b315c86c61a4340a974c24778912637ce9e4f54569f9d05d0e0f6db284",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:21.276Z"
     }
   ],
   "matches": [
