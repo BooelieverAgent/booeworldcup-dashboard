@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-26T22:00:06.449Z",
+  "generated": "2026-06-26T22:00:08.384Z",
   "stats": {
-    "total": 63,
+    "total": 64,
     "resolved": 58,
     "correct": 31,
     "exactScores": 6,
-    "onChain": 58,
+    "onChain": 59,
     "accuracy": 53
   },
   "predictions": [
@@ -1006,6 +1006,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-26T22:00:01.226Z"
+    },
+    {
+      "match_id": "MD3-L2",
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "predicted_winner": "Croatia",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0xa0c2ef90a44e0ec76e69f4e212a73c52b021ae24ccbe14ab1e40001920461cc6",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:08.383Z"
     }
   ],
   "matches": [
