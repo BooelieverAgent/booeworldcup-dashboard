@@ -1332,11 +1332,11 @@
     }
   },
   "stats": {
-    "total": 20,
-    "resolved": 17,
-    "correct": 7,
-    "exactScores": 3,
-    "onChain": 20,
-    "accuracy": 41
+    "total": 68,
+    "resolved": 59,
+    "correct": 32,
+    "exactScores": 6,
+    "onChain": 68,
+    "accuracy": 54
   }
 }
