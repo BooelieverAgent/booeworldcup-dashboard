@@ -94,6 +94,23 @@ function renderHeroStats(stats) {
   document.getElementById('onChain').textContent = stats.onChain;
 }
 
+// Get stage/round display name
+function getStageName(match) {
+  if (match.group) return 'Group ' + match.group;
+  if (match.round) {
+    const roundNames = {
+      'R32': '🏆 Round of 32',
+      'R16': '🏆 Round of 16',
+      'QF': '🏆 Quarter-Final',
+      'SF': '🏆 Semi-Final',
+      '3rd': '🥉 3rd Place',
+      'F': '🏆 Final'
+    };
+    return roundNames[match.round] || match.round;
+  }
+  return 'Knockout';
+}
+
 // Render a single match card
 function renderMatchCard(prediction, match) {
   const isResolved = prediction.resolved;
@@ -108,6 +125,8 @@ function renderMatchCard(prediction, match) {
   const homeFlag = getFlag(match.home);
   const awayFlag = getFlag(match.away);
   
+  const stageName = getStageName(match);
+  
   const outcomeText = prediction.predicted_winner === match.home 
     ? homeFlag + ' ' + match.home + ' Win'
     : prediction.predicted_winner === match.away
@@ -121,7 +140,7 @@ function renderMatchCard(prediction, match) {
     resultHtml = '<div class="match-result ' + resultClass + '"><span class="result-label">Final Score</span><span class="result-value">' + prediction.actual_score_a + ' - ' + prediction.actual_score_b + ' ' + resultIcon + '</span></div>';
   }
   
-  return '<div class="' + cardClass + '"><div class="match-header"><span class="match-group">Group ' + match.group + '</span><span class="match-time">' + match.time + ' ET</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">' + outcomeText + '</span><span class="prediction-score">Bonus Score: ' + prediction.predicted_score_a + '-' + prediction.predicted_score_b + '</span></div>' + resultHtml + '<div class="match-footer">' + (prediction.tx_hash ? '<a href="https://basescan.org/tx/' + prediction.tx_hash + '" target="_blank" class="proof-link">⛓️ View On-Chain Proof</a>' : '<span class="proof-link">📝 Off-chain</span>') + '</div></div>';
+  return '<div class="' + cardClass + '"><div class="match-header"><span class="match-group">' + stageName + '</span><span class="match-time">' + match.time + ' ET</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">' + outcomeText + '</span><span class="prediction-score">Bonus Score: ' + prediction.predicted_score_a + '-' + prediction.predicted_score_b + '</span></div>' + resultHtml + '<div class="match-footer">' + (prediction.tx_hash ? '<a href="https://basescan.org/tx/' + prediction.tx_hash + '" target="_blank" class="proof-link">⛓️ View On-Chain Proof</a>' : '<span class="proof-link">📝 Off-chain</span>') + '</div></div>';
 }
 
 // Render today's matches
