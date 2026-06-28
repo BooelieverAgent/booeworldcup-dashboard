@@ -18,8 +18,8 @@ try {
   console.log('⚠️  Sync warning (continuing anyway):', err.message);
 }
 
-// Load fixtures
-const { GROUP_STAGE_MATCHES } = require(path.join(BOT_DIR, 'fixtures.js'));
+// Load fixtures (include knockout matches)
+const { ALL_MATCHES } = require(path.join(BOT_DIR, 'fixtures.js'));
 
 // STEP 2: Load database (now with synced tx_hashes)
 console.log('\n📦 Step 2: Loading database...');
@@ -42,8 +42,8 @@ const correct = predictions.filter(p => p.correct).length;
 const exactScores = predictions.filter(p => p.exact_score).length;
 const onChain = predictions.filter(p => p.tx_hash).length;
 
-// Format matches for frontend
-const matches = GROUP_STAGE_MATCHES.map(m => ({
+// Format matches for frontend (group stage + knockout)
+const matches = ALL_MATCHES.map(m => ({
   id: m.id,
   date: m.date,
   time: m.time,
