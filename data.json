@@ -1,14 +1,28 @@
 {
-  "generated": "2026-06-28T12:00:10.006Z",
+  "generated": "2026-06-28T12:35:54.186Z",
   "stats": {
-    "total": 68,
+    "total": 69,
     "resolved": 68,
     "correct": 38,
     "exactScores": 7,
-    "onChain": 66,
+    "onChain": 67,
     "accuracy": 56
   },
   "predictions": [
+    {
+      "match_id": "R32-1",
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "predicted_winner": "Canada",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x3244f118ebf7e1511b49f60e729eed7f053f747b21bce55b901d742345277d09",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-28T12:35:54.186Z"
+    },
     {
       "match_id": "MD1-B2",
       "home_team": "Qatar",
