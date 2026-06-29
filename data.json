@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T14:56:19.777Z",
+  "generated": "2026-06-29T15:00:04.668Z",
   "stats": {
     "total": 72,
     "resolved": 68,
@@ -1884,7 +1884,7 @@
     {
       "id": "R32-1",
       "date": "2026-06-28",
-      "time": "15:00",
+      "time": "11:00",
       "home": "South Africa",
       "away": "Canada",
       "venue": "SoFi Stadium",
@@ -1893,7 +1893,7 @@
     {
       "id": "R32-2",
       "date": "2026-06-29",
-      "time": "17:00",
+      "time": "13:00",
       "home": "Brazil",
       "away": "Japan",
       "venue": "NRG Stadium",
@@ -1902,7 +1902,7 @@
     {
       "id": "R32-3",
       "date": "2026-06-29",
-      "time": "20:30",
+      "time": "16:30",
       "home": "Germany",
       "away": "Paraguay",
       "venue": "Gillette Stadium",
@@ -1910,8 +1910,8 @@
     },
     {
       "id": "R32-4",
-      "date": "2026-06-30",
-      "time": "01:00",
+      "date": "2026-06-29",
+      "time": "21:00",
       "home": "Netherlands",
       "away": "Morocco",
       "venue": "Estadio BBVA",
