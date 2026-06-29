@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-29T14:00:01.203Z",
+  "generated": "2026-06-29T14:56:19.777Z",
   "stats": {
-    "total": 69,
+    "total": 72,
     "resolved": 68,
     "correct": 38,
     "exactScores": 7,
-    "onChain": 69,
+    "onChain": 72,
     "accuracy": 56
   },
   "predictions": [
@@ -1110,6 +1110,48 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-28T12:35:54.183Z"
+    },
+    {
+      "match_id": "R32-2",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "predicted_winner": "Brazil",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x716feee1e698db340e764d709be6d829150533e19add3e56858bf992f1794b8e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-29T14:55:50.709Z"
+    },
+    {
+      "match_id": "R32-3",
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "predicted_winner": "Germany",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x9cb0c651466d5973f5e5d885a36391b22fdaeaec36114166801bd4b5d9c7038f",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-29T14:55:55.560Z"
+    },
+    {
+      "match_id": "R32-4",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "predicted_winner": "Netherlands",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x72b9ff1dece285414d3610a7b3ad47da0bebb19ca2cee7845aa25648e7f0eb65",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-29T14:56:01.510Z"
     }
   ],
   "matches": [
@@ -1851,7 +1893,7 @@
     {
       "id": "R32-2",
       "date": "2026-06-29",
-      "time": "13:00",
+      "time": "17:00",
       "home": "Brazil",
       "away": "Japan",
       "venue": "NRG Stadium",
@@ -1860,7 +1902,7 @@
     {
       "id": "R32-3",
       "date": "2026-06-29",
-      "time": "16:30",
+      "time": "20:30",
       "home": "Germany",
       "away": "Paraguay",
       "venue": "Gillette Stadium",
@@ -1868,8 +1910,8 @@
     },
     {
       "id": "R32-4",
-      "date": "2026-06-29",
-      "time": "21:00",
+      "date": "2026-06-30",
+      "time": "01:00",
       "home": "Netherlands",
       "away": "Morocco",
       "venue": "Estadio BBVA",
