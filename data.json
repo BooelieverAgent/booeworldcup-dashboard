@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-01T00:15:12.411Z",
+  "generated": "2026-07-01T12:00:06.188Z",
   "stats": {
-    "total": 75,
+    "total": 76,
     "resolved": 74,
     "correct": 41,
     "exactScores": 8,
-    "onChain": 75,
+    "onChain": 76,
     "accuracy": 55
   },
   "predictions": [
@@ -1206,6 +1206,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-06-30T15:02:05.794Z"
+    },
+    {
+      "match_id": "R32-8",
+      "home_team": "England",
+      "away_team": "Congo DR",
+      "predicted_winner": "England",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x3ca3d5448d5fd30011a4a560ac7060fc991fbdc60e15583b9ee64c55dea84afd",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-01T12:00:04.045Z"
     }
   ],
   "matches": [
