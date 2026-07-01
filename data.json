@@ -1,6 +1,15 @@
 {
-  "predictions": {
-    "MD1-B2": {
+  "generated": "2026-07-01T20:44:00.917Z",
+  "stats": {
+    "total": 76,
+    "resolved": 76,
+    "correct": 43,
+    "exactScores": 9,
+    "onChain": 76,
+    "accuracy": 57
+  },
+  "predictions": [
+    {
       "match_id": "MD1-B2",
       "home_team": "Qatar",
       "away_team": "Switzerland",
@@ -8,18 +17,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "signature": "0x44bd945381540224ee85bc5c0e18b11527ba1e9ee79f46af130e689c6293df822ba174e6dfa2c9058529d1575cc6ecbd4b403e2aa717f5714e771916f7c2363d1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
-      "created_at": "2026-06-13T18:12:20.865Z",
-      "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "tx_hash": "0x6554c87017cb59d44bd50ba09bcc056c2c7e7cf4799d90ddcdfe1dfca3b6961d",
+      "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-13T22:00:04.294Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-13T18:12:20.865Z"
     },
-    "MD1-C1": {
+    {
       "match_id": "MD1-C1",
       "home_team": "Brazil",
       "away_team": "Morocco",
@@ -27,18 +33,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "signature": "0x61d5a7a310e875521806e5112d29120714d8c4bd75adfb20c65acce2e5350555550e85242ffbb0b142c2775dc6437f5b969f43ed3d73296cf2dcf0a122c3023f1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
-      "created_at": "2026-06-13T18:12:22.226Z",
-      "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "tx_hash": "0x53210302035d6f7793a963ee2861e34796a2131d06b668e275e65886c7d058ca",
+      "resolved": true,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-14T02:00:05.446Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-13T18:12:22.226Z"
     },
-    "MD1-C2": {
+    {
       "match_id": "MD1-C2",
       "home_team": "Haiti",
       "away_team": "Scotland",
@@ -46,18 +49,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "signature": "0xd6669ad1c03ab9f4213c62c9af81b190c741e5ca3dfdddac89ccc3909b305c520978bb5f0f319ea2757f41687b0937d6bebeb2e16793daa2c0ffa67e2cc8c9831c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
-      "created_at": "2026-06-13T18:12:23.204Z",
-      "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "tx_hash": "0x9b0f41709b1e0a9f65d289b51c01a0604bc384a38861cbf83eab15785f295da0",
+      "resolved": true,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-14T04:00:00.795Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-13T18:12:23.204Z"
     },
-    "MD1-F1": {
+    {
       "match_id": "MD1-F1",
       "home_team": "Netherlands",
       "away_team": "Japan",
@@ -65,19 +65,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Netherlands (#7) vs Japan (#18). Not financial advice. Definitely football advice.",
-      "signature": "0xea94dbe539c207919c9d3386d88153da135ac28d93e56a82d77320abee5a5e86174d45dbea8607fbb25659de418c2d0056e304496bf6c83be88abdcf09d2549f1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xeaa9571a4a6298367bc310398af8f58c048cbd4078644d1acbc55915a40ab38a",
-      "created_at": "2026-06-14T07:19:43.729Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-15T00:00:00.395Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-14T07:19:43.729Z"
     },
-    "MD1-D2": {
+    {
       "match_id": "MD1-D2",
       "home_team": "Australia",
       "away_team": "Türkiye",
@@ -85,19 +81,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - Australia (#24) vs Türkiye (#26). I've seen this movie before...",
-      "signature": "0x0fc85ff04ce1054adec8770094977b5552ded3868f0487cd364fc3cb9d40fd3c068279dfe9702483a3eae0503d18ca30c820c2402893232a22efaac6fc352d4c1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x91f58c8df0e5dc384a804c9ae3e75bfc918ae13db61f883b13085c61476493b7",
-      "created_at": "2026-06-14T07:20:25.339Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-14T08:00:03.813Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-14T07:20:25.339Z"
     },
-    "MD1-E1": {
+    {
       "match_id": "MD1-E1",
       "home_team": "Germany",
       "away_team": "Curaçao",
@@ -105,19 +97,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Germany comes in as heavy favorites (FIFA #12 vs #95). This is the way.",
-      "signature": "0x0a372dfc33852e096867ce52812d78d548a838a4d7ab367151b1556d32ed28ed15af957c7011de9691f4f67612b86e3f60397658fe4c83c66d0e0ec3e39198041c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x1a98b27a1e85c8234c70e4d2386c511c694f9a934fa0c1c795dd338d414da822",
-      "created_at": "2026-06-14T08:07:13.469Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 7,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-14T20:00:00.516Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-14T08:07:13.469Z"
     },
-    "MD1-E2": {
+    {
       "match_id": "MD1-E2",
       "home_team": "Côte d'Ivoire",
       "away_team": "Ecuador",
@@ -125,19 +113,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Côte d'Ivoire (#39) vs Ecuador (#33). I've seen this movie before...",
-      "signature": "0x840a5b260026fcae31f46f23a78a68913dc1ee5d72d4a46f9e168c66e8568cb652fe2777de070a44a6e2e4fd56e8f45293a71092b0e3dffce005de7bd961861c1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x666852b690c1a18b41665dc092e85feaa54de07d75566cd4372cbeda956604da",
-      "created_at": "2026-06-14T12:00:01.538Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-15T04:00:00.512Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-14T12:00:01.538Z"
     },
-    "MD1-F2": {
+    {
       "match_id": "MD1-F2",
       "home_team": "Sweden",
       "away_team": "Tunisia",
@@ -145,19 +129,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Sweden (#25) vs Tunisia (#40). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x271cd7dcb4a616719f0cda6c09c49569d13c4f506656d7b140d9df1abf6e07672085590335a4978994d3de4906c01d0ed89755cff30e5cb1ab8c4f528922dc7f1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xbfe2f5ce4c17bc89ddbb3399c727c120b6caa9ed53d0d77265bda70759e9efe4",
-      "created_at": "2026-06-14T12:00:02.727Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-15T06:00:03.465Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-14T12:00:02.727Z"
     },
-    "MD1-H1": {
+    {
       "match_id": "MD1-H1",
       "home_team": "Spain",
       "away_team": "Cabo Verde",
@@ -165,19 +145,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Spain comes in as heavy favorites (FIFA #2 vs #72). The Oracle's circuits are buzzing on this one.",
-      "signature": "0xd8a58144e34911822648476e22233d10a0b136204c17e265b47c51680e397114319c84f14f3da5898633567aaf304594ac5317658ad65c6fc94618551ee59c481c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x2c102867e00124d3570326c3a474a1c59f51ea64f4aee615f1345eb73d1c44c5",
-      "created_at": "2026-06-15T12:00:00.710Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-15T20:00:03.478Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:00.710Z"
     },
-    "MD1-G1": {
+    {
       "match_id": "MD1-G1",
       "home_team": "Belgium",
       "away_team": "Egypt",
@@ -185,19 +161,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Belgium comes in as heavy favorites (FIFA #8 vs #37). The Oracle's circuits are buzzing on this one.",
-      "signature": "0xa319a299097a57dc1bd83fc93c5030b3ba25ef7df8b775e9bef9cff11f7f2c70495904b3108a01453cfeee148fdaa79622338c8cb80d910bd1fdb51d613c0bb81c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xbea4022cd7ba953ddde233b7e77b5825bf94b956cc38a6eedcba1743cf39ecb8",
-      "created_at": "2026-06-15T12:00:01.097Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-15T22:00:01.225Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.097Z"
     },
-    "MD1-H2": {
+    {
       "match_id": "MD1-H2",
       "home_team": "Saudi Arabia",
       "away_team": "Uruguay",
@@ -205,19 +177,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Uruguay holds the ranking advantage (FIFA #14 vs #56). This is the way.",
-      "signature": "0x5788f462a4f4bd1ac44f12ad3a6ac635193355d688cb225088779246936468bd7c0bbb1027842322bd76d38bd8b05522ac20dd36fd79e5209a9211973a2cc2b41c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xc9eb45859e978644ae03495d16472c9386105d629e08e4ba61d984903e13d861",
-      "created_at": "2026-06-15T12:00:01.403Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-16T04:00:00.240Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.403Z"
     },
-    "MD1-G2": {
+    {
       "match_id": "MD1-G2",
       "home_team": "IR Iran",
       "away_team": "New Zealand",
@@ -225,19 +193,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "IR Iran comes in as heavy favorites (FIFA #21 vs #93). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x808111acb4ca55664770cc8b6677e1b655f399f2385a1d4d65de187a4b41f24b456af7e6dd466ff4c381f86094d9daa09a6e147cb264e2867e01a648c8677a651c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x74265cd9d5fab7f0e7d0c7c918b8c3deb902ac2a952a933e5bb60027d43ce000",
-      "created_at": "2026-06-15T12:00:01.873Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-16T04:00:00.241Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-15T12:00:01.873Z"
     },
-    "MD1-I1": {
+    {
       "match_id": "MD1-I1",
       "home_team": "France",
       "away_team": "Senegal",
@@ -245,19 +209,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - France (#1) vs Senegal (#17). I've seen this movie before...",
-      "signature": "0x0888dc668f63dfcf9c7a3e6f6fb53b5038ddbb73265e7c46ea20233bb290546c2bb70657f4ae4f112e141eb71231b76f561a70e136967d3000a4fb49a7cf3e191b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x992da2feadf33a537ed49f06d9c047480c4c845bd824532f69b5de2dd3a542dd",
-      "created_at": "2026-06-16T12:00:00.662Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 3,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-17T02:00:05.836Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-16T12:00:00.662Z"
     },
-    "MD1-I2": {
+    {
       "match_id": "MD1-I2",
       "home_team": "Iraq",
       "away_team": "Norway",
@@ -265,19 +225,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Iraq (#63) vs Norway (#44). Not financial advice. Definitely football advice.",
-      "signature": "0x7c30e418e366b60027e6bfa0254e9365464f9be16c9e8723dc7eab66520e569915349b860ad11c1bdcf01f0b05a609a6252a1050ee2f49573af60354c21111dd1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x67e8e2fe9d043371f772a4bccd9820b8cc50658ddb3464d500c0952e27ccdb3f",
-      "created_at": "2026-06-16T12:00:01.419Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 4,
-      "resolved_at": "2026-06-17T02:00:05.837Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-16T12:00:01.419Z"
     },
-    "MD1-J1": {
+    {
       "match_id": "MD1-J1",
       "home_team": "Argentina",
       "away_team": "Algeria",
@@ -285,19 +241,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Argentina comes in as heavy favorites (FIFA #3 vs #34). This is the way.",
-      "signature": "0x6c1a3af110ad1439b014d448d35e1acf5782cd68daa1965e9b595c560b44f9e46c3f0d71c4b2a73d463586c279125201969bd195ff579d961dfc2429d181b0341c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9f04dadceb603e5f8bf0346e23651df08b6751947418dab52c76f3967db9bed6",
-      "created_at": "2026-06-16T12:00:02.231Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-17T08:00:07.761Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-16T12:00:02.231Z"
     },
-    "MD1-J2": {
+    {
       "match_id": "MD1-J2",
       "home_team": "Austria",
       "away_team": "Jordan",
@@ -305,19 +257,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Austria comes in as heavy favorites (FIFA #23 vs #70). This is the way.",
-      "signature": "0xefc6f5244142550413d9468da108e7016573e7e505dcc8199f8f9cd18d79bd5b37f4ba0e22fb7ed131e04faf2dc5a7e6a3281ca600b66bfec6cdb3525add7fda1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x0fe979a522da2183709241710d1233337e483baa007ebd044c26b98e688379b3",
-      "created_at": "2026-06-17T12:00:00.690Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-17T14:00:00.561Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-17T12:00:00.690Z"
     },
-    "MD1-K1": {
+    {
       "match_id": "MD1-K1",
       "home_team": "Portugal",
       "away_team": "Congo DR",
@@ -325,19 +273,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Portugal comes in as heavy favorites (FIFA #5 vs #65). I've seen this movie before...",
-      "signature": "0xb13e54776e48edccc3b2a2b0b749bb9998aaddcc483a5015ebbf4a6a6a500ff26010782090ad9895536aea54cc5e9da8f5c6e17226d6f3f0459d17b99187de501b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x692933a3ff53bb6bc273ace3a294ca0c72896a935223738316f1184ce035b954",
-      "created_at": "2026-06-17T12:00:00.994Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-17T20:00:02.354Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T12:00:00.994Z"
     },
-    "MD1-L1": {
+    {
       "match_id": "MD1-L1",
       "home_team": "England",
       "away_team": "Croatia",
@@ -345,19 +289,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - England (#4) vs Croatia (#9). The Oracle's circuits are buzzing on this one.",
-      "signature": "0xdd20898eb79874506e792aab2b95899d7d7851dcaea256f7b92d30678d478cb07835ffb45040ec9fc80d8e01841e0d320914289d5c31e4ca90080132e5814bcc1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xd2f08f6e64b8f1ae4750aae545525dc0b94202156f86b6663a8fb4eaccb4f3fd",
-      "created_at": "2026-06-17T12:00:01.302Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 4,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-18T00:00:00.750Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-17T12:00:01.302Z"
     },
-    "MD1-L2": {
+    {
       "match_id": "MD1-L2",
       "home_team": "Ghana",
       "away_team": "Panama",
@@ -365,19 +305,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Ghana (#60) vs Panama (#47). This is the way.",
-      "signature": "0x41c362db0f10718fd5c52854118c9404bc05330b2c709d3691aab7c4d006bc7406812cc104eb80ee1635a214e9a2c971d16271f0612c9586a35dfe91449eafef1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xea928027705f4b3e79f3799981d6a0be1fce6f928e3819f5971ae4b0c276b567",
-      "created_at": "2026-06-17T12:00:01.604Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-18T02:00:01.237Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T12:00:01.604Z"
     },
-    "MD1-K2": {
+    {
       "match_id": "MD1-K2",
       "home_team": "Uzbekistan",
       "away_team": "Colombia",
@@ -385,19 +321,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Colombia holds the ranking advantage (FIFA #10 vs #75). I've seen this movie before...",
-      "signature": "0x060888129975a9fb6aa1ca6f80ee53bfb4272090b8a3138cd7e415f30559fd8b0833bc7fec20c59e75c79b94d92a9040372ada55b95b0a1443bc80296fbed1011c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x3e655ad39741f596e73518343d8719c684ace0d57270595b4de942eded0c37c1",
-      "created_at": "2026-06-17T12:00:01.919Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-18T06:00:03.991Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-17T12:00:01.919Z"
     },
-    "MD2-A1": {
+    {
       "match_id": "MD2-A1",
       "home_team": "Czechia",
       "away_team": "South Africa",
@@ -405,19 +337,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 0,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Czechia comes in as heavy favorites (FIFA #36 vs #59). Not financial advice. Definitely football advice.",
-      "signature": "0x08f32a64c03044d8f725c8a4cf74b761c2717fc41528d09b2be6a4af7d0da4b82d2bc3dc6a309fb62b0d638f2c3c489123b5d1249f3eb58b2d356b23a8aec55b1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x635e6e4a8870586a99372b700b204871f750a62e8c4dae9a3fbbf32a6761cf93",
-      "created_at": "2026-06-17T22:00:01.559Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-18T20:00:03.715Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:01.559Z"
     },
-    "MD2-B1": {
+    {
       "match_id": "MD2-B1",
       "home_team": "Switzerland",
       "away_team": "Bosnia and Herzegovina",
@@ -425,19 +353,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Switzerland comes in as heavy favorites (FIFA #19 vs #68). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x9538dcc82ef92d6f3ca27e6af73c34af4a89c2e8523178ea43820375fea31cda4258eaa7c2813efbb4bb7e92f7a5e6b2193581561f6c53e1e93878f2b12322a91b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x2c39d6acf9d6d9276fc2f7826d95c9f7770b17e59aaa1df73d51ef9e97064c6c",
-      "created_at": "2026-06-17T22:00:07.688Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 4,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-19T00:00:04.727Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:07.688Z"
     },
-    "MD2-B2": {
+    {
       "match_id": "MD2-B2",
       "home_team": "Canada",
       "away_team": "Qatar",
@@ -445,19 +369,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - Canada (#43) vs Qatar (#35). Not financial advice. Definitely football advice.",
-      "signature": "0x3e86fd049da5429b724a45dab364af4253083b4a3d675532915e4cfb79ceb82c60de210867f49ebd4aaf428a1fe04d7249128ad673b8ea659bdf1574c2ad22331c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9e79373ace65d6faf4d4a13d0ded7f2964fb00bb5377663f73c409284fc1b97a",
-      "created_at": "2026-06-17T22:00:11.303Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 6,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-19T02:00:00.670Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:11.303Z"
     },
-    "MD2-A2": {
+    {
       "match_id": "MD2-A2",
       "home_team": "Mexico",
       "away_team": "Korea Republic",
@@ -465,19 +385,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - Mexico (#15) vs Korea Republic (#22). The prophecy favors the bold.",
-      "signature": "0x4d415faa96ae079770e7be9d7a60d83f49502838325557ee6d7f45ad17e651245254b6a053c4e96cdde0694bd64a92c541f7182008255331de7dff6fcf0649531b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x4463db24c9287ce2166d9d8063f33392bdca9688d8bfc3715283f6e37192719f",
-      "created_at": "2026-06-17T22:00:14.209Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-19T04:00:01.186Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-17T22:00:14.209Z"
     },
-    "MD2-D1": {
+    {
       "match_id": "MD2-D1",
       "home_team": "USA",
       "away_team": "Australia",
@@ -485,19 +401,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - USA (#11) vs Australia (#24). Not financial advice. Definitely football advice.",
-      "signature": "0x36febcd6967f8081d279a455c05affef9f55716f599ca0e9c0eb321ea983769817087ca4cf3a0a11f617a5d6bb2f95df8a2b52d4d33321a06e362e7929b37b331b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x7c69cd1e1b06e7ccdf8be0a8e10d3d9210a3b94ce847d18e6a58e0da02854993",
-      "created_at": "2026-06-18T22:00:05.678Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-19T22:00:04.259Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:05.678Z"
     },
-    "MD2-C1": {
+    {
       "match_id": "MD2-C1",
       "home_team": "Scotland",
       "away_team": "Morocco",
@@ -505,19 +417,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Morocco holds the ranking advantage (FIFA #13 vs #48). This is the way.",
-      "signature": "0x5c90f4a1583898e43979cd9d6c2c16b6b16b40a44ac991151955468101b893fa52196f192344c2872d3d04ec3f13e1801e18458a369ffbb21e55bf33c5fe5b851b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x71e1af2e103ff0b423a7a3569583c02ec28faae11f4009c1ddbc04054cb31f5e",
-      "created_at": "2026-06-18T22:00:08.506Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-20T02:00:00.752Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:08.506Z"
     },
-    "MD2-C2": {
+    {
       "match_id": "MD2-C2",
       "home_team": "Brazil",
       "away_team": "Haiti",
@@ -525,19 +433,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Brazil comes in as heavy favorites (FIFA #6 vs #88). I've seen this movie before...",
-      "signature": "0x10311beb6323b95bb1e76c0edf6f5121890ad3c5e3704be35db29bdc4bb140050fd3a668761356eeb3a1c5268b7f02c732d367f3a4a553246011fbcb5d768e9f1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x10f6805aa1a560e7f1f20358d94a2bf29d04f4de8e3fa561def52d078d47a401",
-      "created_at": "2026-06-18T22:00:11.980Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-20T04:00:00.932Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:11.980Z"
     },
-    "MD2-D2": {
+    {
       "match_id": "MD2-D2",
       "home_team": "Türkiye",
       "away_team": "Paraguay",
@@ -545,19 +449,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Türkiye comes in as heavy favorites (FIFA #26 vs #52). The prophecy favors the bold.",
-      "signature": "0x4b8eb28135b23d8702e3a02b03f8180c11526c77355a3369dffaef5d217cbce46ab384e7943a72cd9cb4d2100341559474fcc7f11cb3769288c631f66f35c3881b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x242efba477b114ef72c5bed598f0de939fa235b7e176a31db385b510eda1209a",
-      "created_at": "2026-06-18T22:00:15.474Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-20T08:00:01.262Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-18T22:00:15.474Z"
     },
-    "MD2-F1": {
+    {
       "match_id": "MD2-F1",
       "home_team": "Netherlands",
       "away_team": "Sweden",
@@ -565,19 +465,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Netherlands (#7) vs Sweden (#25). The prophecy favors the bold.",
-      "signature": "0x09c065bddf7a775906a12d877b2c98f12cd9606012904a01ab7765e23c2aee3a1e15f2209e28c408e806ead349e274b002c8611af199afc8a1867732a5e6b20c1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x33b693cc47c67512a6f4eaacf0e631726cd039219399791a77f3c3e08858d5d1",
-      "created_at": "2026-06-19T22:00:01.346Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-20T20:00:03.048Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-19T22:00:01.346Z"
     },
-    "MD2-E1": {
+    {
       "match_id": "MD2-E1",
       "home_team": "Germany",
       "away_team": "Côte d'Ivoire",
@@ -585,19 +481,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Germany comes in as heavy favorites (FIFA #12 vs #39). Not financial advice. Definitely football advice.",
-      "signature": "0x75465e467f005dc1b7a50b4c49dbceec1b33cd8329afaf8692a6c2c16f8502cf373b5743a53620ecd871ff0e07a9cdcad56019bd9040b5f535adef3f54ebb5541b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x1a87242be090895561579f8d01f670b4a544b9a514ff9b9a6a8b99f2f405c9eb",
-      "created_at": "2026-06-19T22:00:06.141Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-21T00:00:00.878Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-19T22:00:06.141Z"
     },
-    "MD2-E2": {
+    {
       "match_id": "MD2-E2",
       "home_team": "Ecuador",
       "away_team": "Curaçao",
@@ -605,19 +497,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Ecuador comes in as heavy favorites (FIFA #33 vs #95). The prophecy favors the bold.",
-      "signature": "0x6c57c9b5fa032949670ffd3eed399f05bbc447d0e011ea95db1e7d49c74f51b911c2bd94bdbc38b907f28c0964a65ee81a36276c86483c7def4fdfe1e9a61ec51b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x1df2c48e1e2d951eec2093a16df1a3cc5136908536431d42e3998513169ac5a2",
-      "created_at": "2026-06-19T22:00:08.816Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-21T04:00:03.963Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-19T22:00:08.816Z"
     },
-    "MD2-F2": {
+    {
       "match_id": "MD2-F2",
       "home_team": "Tunisia",
       "away_team": "Japan",
@@ -625,19 +513,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Japan holds the ranking advantage (FIFA #18 vs #40). I've seen this movie before...",
-      "signature": "0x794b629b294b70a98747e0c62b55c512f32374ff2c6325fb80cbd31bf263567b251f422276ec10bb1e7655de6ec9fab766e979483fe81b3532449d98631833ef1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x842c0cbc449734b29ed15fe651fb8886329a4dc82d4643090a6e0fdf3dce8579",
-      "created_at": "2026-06-20T22:00:00.476Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 4,
-      "resolved_at": "2026-06-21T08:00:00.549Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:00.476Z"
     },
-    "MD2-H1": {
+    {
       "match_id": "MD2-H1",
       "home_team": "Spain",
       "away_team": "Saudi Arabia",
@@ -645,19 +529,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Spain comes in as heavy favorites (FIFA #2 vs #56). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x2639fde994cb49098bee7b1bff32101f76cf2ba273fcf1a91afb0ae4f8ca68e628693eaccbf755a9c450a5b862a6cfbe99a0048d4aafe754f154d0e8dde0ef461c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xd18be5310beca973edeb87595012547addf70eaffbf723fd6998d45fa941b7fb",
-      "created_at": "2026-06-20T22:00:03.334Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-21T20:00:03.132Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:03.334Z"
     },
-    "MD2-G1": {
+    {
       "match_id": "MD2-G1",
       "home_team": "Belgium",
       "away_team": "IR Iran",
@@ -665,19 +545,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Belgium (#8) vs IR Iran (#21). Not financial advice. Definitely football advice.",
-      "signature": "0xb5a7f34d648fcb10518dfca6263ce44d52d0d11296fc95e0de8b9f7c6e02e8ff53ea618e38d0b172bed19be738e91b61b5ab79cac77858a65415d404d2d782cd1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xcfafd9d96dd6657b1d65a6b056aa347082d141d9399aec7b1053072153f776f5",
-      "created_at": "2026-06-20T22:00:10.529Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-21T22:00:01.030Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:10.529Z"
     },
-    "MD2-H2": {
+    {
       "match_id": "MD2-H2",
       "home_team": "Uruguay",
       "away_team": "Cabo Verde",
@@ -685,19 +561,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Uruguay comes in as heavy favorites (FIFA #14 vs #72). This is the way.",
-      "signature": "0x62e640239fa58a5082d55fa076640950660566a8a3f5ae2d98a92006566966792224f22fe858b9310cdda2f1faaf7f200ae974e7feaba7ff31652bfe8534f7d01b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x6e6faad9ab9180644d66af0def15f80af895beee263a0763b27a0f91ec938637",
-      "created_at": "2026-06-20T22:00:13.477Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-22T02:00:01.874Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:13.477Z"
     },
-    "MD2-G2": {
+    {
       "match_id": "MD2-G2",
       "home_team": "New Zealand",
       "away_team": "Egypt",
@@ -705,19 +577,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Egypt holds the ranking advantage (FIFA #37 vs #93). The prophecy favors the bold.",
-      "signature": "0xcb58dd1cd1ef8a9bf30bba6503da5426928085b998af1d3c1d7dfe90bde4f9356ef59c7eff97406128c6cf61b3c1168ba26744fbb4f81342b8011365ad40e6ae1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x4c1947a618ab6b6072c869aff710df6f549088dc5abfcb0974a76b849820a95c",
-      "created_at": "2026-06-20T22:00:16.390Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-22T04:00:02.591Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-20T22:00:16.390Z"
     },
-    "MD2-J1": {
+    {
       "match_id": "MD2-J1",
       "home_team": "Argentina",
       "away_team": "Austria",
@@ -725,19 +593,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Argentina (#3) vs Austria (#23). The prophecy favors the bold.",
-      "signature": "0xb35c012eca4f798a97ed731de8ded762c1659ef89270058c31f84f4abc5ba69f4bdcab22107edfc4ed54545cbda4aef1e2537d7dc60a211af8709475566731271b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xc81f957ec03580e60c1ae1614723ed9f947b7c1c8811963b6d1893f064cc85ab",
-      "created_at": "2026-06-21T22:00:03.243Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-22T20:00:01.109Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-21T22:00:03.243Z"
     },
-    "MD2-I1": {
+    {
       "match_id": "MD2-I1",
       "home_team": "France",
       "away_team": "Iraq",
@@ -745,19 +609,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "France comes in as heavy favorites (FIFA #1 vs #63). Not financial advice. Definitely football advice.",
-      "signature": "0x36230b3e4fcba9cb9a85e185a674c58449c6eb44ca361d08eb8a0e20a0bf23d73b7650605faeddf8ecabca5bd57f57665c11571dfb68d18f9e76adf82fb0e40e1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x2922d9b941c5bf317096dba79c9d4a56c6fed320479d74f71ceb3b941fbe9d5e",
-      "created_at": "2026-06-21T22:00:05.955Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-23T02:00:00.460Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-21T22:00:05.955Z"
     },
-    "MD2-I2": {
+    {
       "match_id": "MD2-I2",
       "home_team": "Norway",
       "away_team": "Senegal",
@@ -765,19 +625,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Senegal holds the ranking advantage (FIFA #17 vs #44). I've seen this movie before...",
-      "signature": "0x0f6d2b9523b5540591baa584ea895c6c6f790b6a3425ea1fcd8e6aeec0eae7a228255d652228e820ee52b93851584c44fddf5c3c4f19005433ce9e17830be6f41c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x1c3687af2e002583138aa1a349991041d5a22fe0319f25947a263de3f9c70fd7",
-      "created_at": "2026-06-21T22:00:14.217Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-23T04:00:03.603Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-21T22:00:14.217Z"
     },
-    "MD2-J2": {
+    {
       "match_id": "MD2-J2",
       "home_team": "Jordan",
       "away_team": "Algeria",
@@ -785,19 +641,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Algeria holds the ranking advantage (FIFA #34 vs #70). Not financial advice. Definitely football advice.",
-      "signature": "0x67543b79d00927d923a61ee851541accb6ff0b66e56f47417233e688b93a3d884bd0226efbc26ce164f97e4837debcb50993f5496203d81be81186a6fec342041b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xf2a98f47dae7a43351d5ea6c83981bc2c3eb04e076e5710253ad927025b376b1",
-      "created_at": "2026-06-21T22:00:21.630Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-23T06:00:03.573Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-21T22:00:21.630Z"
     },
-    "MD2-K1": {
+    {
       "match_id": "MD2-K1",
       "home_team": "Portugal",
       "away_team": "Uzbekistan",
@@ -805,19 +657,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Portugal comes in as heavy favorites (FIFA #5 vs #75). This is the way.",
-      "signature": "0x4e315163f8833e7fd023a3dcd8c387746c7eaca4835f0b1113da50bce248ae845100a13f1f242881b1eeb53779e76df5cabedbde744090db86f1f61062deae4c1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xbedee113bc3fa97ec542d8dafd334ca149f3aabbacaea63a34a791be8255062c",
-      "created_at": "2026-06-22T22:00:05.857Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-23T20:00:02.264Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:05.857Z"
     },
-    "MD2-L1": {
+    {
       "match_id": "MD2-L1",
       "home_team": "England",
       "away_team": "Ghana",
@@ -825,19 +673,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "England comes in as heavy favorites (FIFA #4 vs #60). I've seen this movie before...",
-      "signature": "0x6cecc01530371d309dd7472510eab43e3b7afaabbddfd5e2c02e1241f2bb6a5e1e5ab7af497c255622ba016b462b91ee24a190d09ebe090d3b97fc9d601a11d31c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x475e958369e2926d6ea7d165e3813557b4e8fa316189a7b3976d1b57614587e6",
-      "created_at": "2026-06-22T22:00:13.282Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-24T00:00:02.581Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:13.282Z"
     },
-    "MD2-L2": {
+    {
       "match_id": "MD2-L2",
       "home_team": "Panama",
       "away_team": "Croatia",
@@ -845,19 +689,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Croatia holds the ranking advantage (FIFA #9 vs #47). Not financial advice. Definitely football advice.",
-      "signature": "0x471e755d282d451869be9e600d00da61d65d92830d15cf865d357271c6420d3b2b5ad0be1b22c679b61cc7b9b91ba8a066afde764c1de61038ddd2ffbc720c341c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x797a3ab5b6c92cbcca97696c7bed800afb7815f38be28c7a65fa3f9cb28a93ae",
-      "created_at": "2026-06-22T22:00:16.173Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-24T02:00:02.479Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:16.173Z"
     },
-    "MD2-K2": {
+    {
       "match_id": "MD2-K2",
       "home_team": "Colombia",
       "away_team": "Congo DR",
@@ -865,19 +705,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Colombia comes in as heavy favorites (FIFA #10 vs #65). I've seen this movie before...",
-      "signature": "0x3e381963f27ce5cd5fafc5776486b7c39650b2626bba57ac47915bd9e1bec09e5bf1bd3916130fc9310f7cf0d078bee749ad4967a51c126a8e60b83336ba06051c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xd96f17c872473500b0398cd80089be108e764c29083f59cd7c5a1cfd36e2a6f3",
-      "created_at": "2026-06-22T22:00:23.623Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-24T06:00:01.124Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-22T22:00:23.623Z"
     },
-    "MD3-B1": {
+    {
       "match_id": "MD3-B1",
       "home_team": "Switzerland",
       "away_team": "Canada",
@@ -885,19 +721,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Switzerland comes in as heavy favorites (FIFA #19 vs #43). Not financial advice. Definitely football advice.",
-      "signature": "0x468a728a09963899067860601cc4fff69e0c261c3a04d8e65ba9bd021cadb7a131ebee2291b7f0e24fb6197841dd3e88ddc501dcb6d59942ecad7d56f22cb7a51b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x6087a026c943f2fbc75aec8ed01b33d8886055bc596a9faf6db6e19c07a5db36",
-      "created_at": "2026-06-23T22:00:01.481Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-24T22:00:02.438Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:01.481Z"
     },
-    "MD3-B2": {
+    {
       "match_id": "MD3-B2",
       "home_team": "Bosnia and Herzegovina",
       "away_team": "Qatar",
@@ -905,19 +737,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Qatar holds the ranking advantage (FIFA #35 vs #68). This is the way.",
-      "signature": "0x962d66ec7383e462f919f448b5effa90201b6f263b0bb5822f5d81d82f3df6696f8d55cf00606edc459d983ef9d9f81dc1d5a349b7628b502a8eed5939a371951b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9474161dcc45f9cbf18514fa77aa1477b25c9ff8e317b10e68a25a9a7301d068",
-      "created_at": "2026-06-23T22:00:07.690Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-24T22:00:15.617Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:07.690Z"
     },
-    "MD3-C1": {
+    {
       "match_id": "MD3-C1",
       "home_team": "Morocco",
       "away_team": "Haiti",
@@ -925,19 +753,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Morocco comes in as heavy favorites (FIFA #13 vs #88). The Oracle's circuits are buzzing on this one.",
-      "signature": "0xfc91821885f0db463846b2de89c4fa0c8e0d031cd500a392b91d8de6bcb9128b2bccff4d98d9ebbb6b2aed4ecf25bac12ea8be4faee334ddf142a343062aae6c1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xd223f9b2c3a5a323b8743ce1dfed3a8c503638cbd9ad708ee05884f38016abe9",
-      "created_at": "2026-06-23T22:00:10.557Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 4,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-25T02:00:01.162Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:10.557Z"
     },
-    "MD3-C2": {
+    {
       "match_id": "MD3-C2",
       "home_team": "Scotland",
       "away_team": "Brazil",
@@ -945,19 +769,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Brazil holds the ranking advantage (FIFA #6 vs #48). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x8c7b6d6183ae4934fb1e7bc1ecaa98566f0288e42cc27ffe64f66d8d545f1cf41331d0813281b8d0d1f52d89197c9dcd0e34494843e90fe569a19e2dcca7a2bd1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9e353e084a4da60b7e49e4bbfefe4cc441daa6d851be8801c29fc5a8635a3b6d",
-      "created_at": "2026-06-23T22:00:18.027Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 0,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-25T02:00:04.231Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-23T22:00:18.027Z"
     },
-    "MD3-A1": {
+    {
       "match_id": "MD3-A1",
       "home_team": "Czechia",
       "away_team": "Mexico",
@@ -965,19 +785,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Mexico holds the ranking advantage (FIFA #15 vs #36). Not financial advice. Definitely football advice.",
-      "signature": "0xf9d0364e34c2600c7ace6e2bea9a98ec718b6fc7a1b78ca635f38499c1e6c8064fe7b9df45aee5e6ddee733d1cc4f04a6cdf0b87c46662cc6de0bc5ae3e232d71c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x4c99c3916a8c8d356589f1d6ccc648fe1033bd759b99939448b0d88568ea0fcc",
-      "created_at": "2026-06-23T22:00:25.581Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-25T04:00:01.921Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:25.581Z"
     },
-    "MD3-A2": {
+    {
       "match_id": "MD3-A2",
       "home_team": "South Africa",
       "away_team": "Korea Republic",
@@ -985,19 +801,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Korea Republic holds the ranking advantage (FIFA #22 vs #59). The prophecy favors the bold.",
-      "signature": "0x22c8e6a2c9607e7da742228747cb5ab5f111364cde172313a3ed0e4133ad59910ca195b3d39774c9bfb33c011cbdbc63bdc58bea4863c1fd26dc37d1883a1b2a1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xf45802f14fa7982451d02ef422907e5c736698c95d4f7bad6c753e4ead24d6c6",
-      "created_at": "2026-06-23T22:00:32.964Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-25T04:00:05.332Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-23T22:00:32.964Z"
     },
-    "MD3-E1": {
+    {
       "match_id": "MD3-E1",
       "home_team": "Curaçao",
       "away_team": "Côte d'Ivoire",
@@ -1005,19 +817,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Côte d'Ivoire holds the ranking advantage (FIFA #39 vs #95). The prophecy favors the bold.",
-      "signature": "0xcb5641111a6aeaf2a901a1be232d7bebcb1e45b2e75700de066658c1a13a2a05179d6505e4c2aa58161a131f84779e3433710e7038950678f4b52057fecdf5fb1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xd1d3efbf2fd4d8b50971d3311e248b4e555cadd8377c7e5bbb0a675258dcaa35",
-      "created_at": "2026-06-24T22:00:08.670Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-26T02:00:00.707Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:08.670Z"
     },
-    "MD3-E2": {
+    {
       "match_id": "MD3-E2",
       "home_team": "Ecuador",
       "away_team": "Germany",
@@ -1025,19 +833,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Germany holds the ranking advantage (FIFA #12 vs #33). This is the way.",
-      "signature": "0x5029cc46f73ea1c976c03daa6bf2aa325cdf541390db1cfea539d7224acabebb340cc230cbeb789bdcad54c17cdcd52c66ba7421c43e9063b8de26fc161337031b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xb90cd6f5d8be4dbaf0fe33d330a752eec2e0f4806b255f2cf4cb4db645ecd549",
-      "created_at": "2026-06-24T22:00:11.463Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-26T02:00:03.876Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:11.463Z"
     },
-    "MD3-F1": {
+    {
       "match_id": "MD3-F1",
       "home_team": "Japan",
       "away_team": "Sweden",
@@ -1045,19 +849,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Japan (#18) vs Sweden (#25). The prophecy favors the bold.",
-      "signature": "0x9e424521236cb6540234086912468bac7a6ab637962230161bce07a3423136d233c0aa50ef9bcd456e569bfb167a74c6e45f40f30f34839571f6a5326751a5481b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x182705f5271a53918f4fdaf3380c8abd8a0b999d3732514e3b15d003870ad3d8",
-      "created_at": "2026-06-24T22:00:17.430Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-26T02:00:05.699Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:17.430Z"
     },
-    "MD3-F2": {
+    {
       "match_id": "MD3-F2",
       "home_team": "Tunisia",
       "away_team": "Netherlands",
@@ -1065,19 +865,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Netherlands holds the ranking advantage (FIFA #7 vs #40). This is the way.",
-      "signature": "0x31837c4a470d2e0f7afa1785a629847667fcd087a16a4e51ae945a9d24c416e85455de08461c2e1c064ba35ccf93a2edffa410506828932c1fab8597759046361c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xc6c50365e1a437784daac100323c0ed96259a576ad05eecc4608e2780e68d00a",
-      "created_at": "2026-06-24T22:00:20.225Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 1,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-26T02:00:08.527Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-24T22:00:20.225Z"
     },
-    "MD3-D1": {
+    {
       "match_id": "MD3-D1",
       "home_team": "Türkiye",
       "away_team": "USA",
@@ -1085,19 +881,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 0,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Türkiye (#26) vs USA (#11). Not financial advice. Definitely football advice.",
-      "signature": "0x7d9edccf9e5bdd33439b4af1eb412147f59ab3994da52fd29e57d10d7d70d70542e5cd852c5b37b781c9d724be92b07257b727b54947bf5a280e1d788d0fbfc61b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x08585d62a3d43958812935c8834a54196e0444c8d6e3c365741e45278d47a88b",
-      "created_at": "2026-06-24T22:00:27.566Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-26T06:00:02.002Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:27.566Z"
     },
-    "MD3-D2": {
+    {
       "match_id": "MD3-D2",
       "home_team": "Paraguay",
       "away_team": "Australia",
@@ -1105,19 +897,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Australia holds the ranking advantage (FIFA #24 vs #52). This is the way.",
-      "signature": "0x6c579dab545e513564484da3e20ae40637a57d7e1f6f28813eeba0686aed1f3f5056fec8af0d485156a98d8f0c0bf5499face5b934559fa061210747f4a0bd8f1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x7d980c396b0548f470db59a2b50c57f0d2fe70801337e38170ad4dcda53e2a1a",
-      "created_at": "2026-06-24T22:00:34.901Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-26T06:00:06.419Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-24T22:00:34.901Z"
     },
-    "MD3-I1": {
+    {
       "match_id": "MD3-I1",
       "home_team": "Norway",
       "away_team": "France",
@@ -1125,19 +913,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "France holds the ranking advantage (FIFA #1 vs #44). This is the way.",
-      "signature": "0x1ab09d24f203d4ca4d77bc79adce561870f5e73e02be9e2c7d7a2bd3a42c8e6401b168d829066e026f1ebb287c3ad101a243de75bd20b4facd80a4f6f287c3561c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xb8f5968bf3fb5f147c3df30961eead52c6da5e0f2c54146b686bf595c4aaa236",
-      "created_at": "2026-06-25T22:00:06.608Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 4,
-      "resolved_at": "2026-06-26T22:00:03.365Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:06.608Z"
     },
-    "MD3-I2": {
+    {
       "match_id": "MD3-I2",
       "home_team": "Senegal",
       "away_team": "Iraq",
@@ -1145,19 +929,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Senegal comes in as heavy favorites (FIFA #17 vs #63). I've seen this movie before...",
-      "signature": "0xde32302b34b772d4826c6115fb6ad6ce8dfc3ffb9d8bab83f69ce1d58ba84b3539611c5e9371beea531dd9a8c9b5ceac2190b618a233cb03678c51d4cc57b9a41b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9e1e4e4dd59568418aed6ac726233abcf91cfff700c18dbe561cbce09c2600e7",
-      "created_at": "2026-06-25T22:00:09.513Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-26T22:00:06.448Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:09.513Z"
     },
-    "MD3-H1": {
+    {
       "match_id": "MD3-H1",
       "home_team": "Cabo Verde",
       "away_team": "Saudi Arabia",
@@ -1165,19 +945,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Cabo Verde (#72) vs Saudi Arabia (#56). Not financial advice. Definitely football advice.",
-      "signature": "0x2603a05d404595efa01822d66e1d15698140513fe88c554260b690fae66af939093c6803bdd7890fd7295979517eb12f9f870196be731827371af590a4ca0f921c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x243449c70f5e9caf88820cf717ea3ae85d36275f912f458a229542b4ed514da3",
-      "created_at": "2026-06-25T22:00:12.855Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-27T06:00:01.014Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:12.855Z"
     },
-    "MD3-H2": {
+    {
       "match_id": "MD3-H2",
       "home_team": "Uruguay",
       "away_team": "Spain",
@@ -1185,19 +961,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Uruguay (#14) vs Spain (#2). I've seen this movie before...",
-      "signature": "0xab82eae396a706e7d41a202eab852059ef637c2c14c8486e1593e72f3abd241f64761aa1815b812dad75f4b3ea896f757ef514221ad0600d132171c98fff552b1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x0f4076e127a0d6f8681fa08e2f7918b554b6fda29ab22a90c7af50bb5054c5ae",
-      "created_at": "2026-06-25T22:00:16.035Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-27T06:00:04.398Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:16.035Z"
     },
-    "MD3-G1": {
+    {
       "match_id": "MD3-G1",
       "home_team": "Egypt",
       "away_team": "IR Iran",
@@ -1205,19 +977,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Egypt (#37) vs IR Iran (#21). The prophecy favors the bold.",
-      "signature": "0xff17b4035c5321a727d1e4dc6974c85ec5b0e5ff1ce9991c19bca55ea8fa63393100e43c257171f6857442f5d70bdd95150815d0611e5852bd816fc980340da61b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x77a6aae32309f25d70fc72289f3ed5b1c8211b9dc72cd09a7048563827a44b22",
-      "created_at": "2026-06-25T22:00:23.498Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-27T06:00:07.094Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:23.498Z"
     },
-    "MD3-G2": {
+    {
       "match_id": "MD3-G2",
       "home_team": "New Zealand",
       "away_team": "Belgium",
@@ -1225,19 +993,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Belgium holds the ranking advantage (FIFA #8 vs #93). The prophecy favors the bold.",
-      "signature": "0x8ce09a57fea6dcc0f04ce2b144b55c936289f5f1e0acd5ade052719ab9f06abf061431667594f37bfeecfa914a6a242d0a0bf1f5df0da9b71cebb11ae99559111b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x18853277bf6adb4c3726d1d790e128aeb89b120f14d26beb60703b57c5651150",
-      "created_at": "2026-06-25T22:00:30.853Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 5,
-      "resolved_at": "2026-06-27T06:00:09.851Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-25T22:00:30.853Z"
     },
-    "MD3-L1": {
+    {
       "match_id": "MD3-L1",
       "home_team": "Panama",
       "away_team": "England",
@@ -1245,19 +1009,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "England holds the ranking advantage (FIFA #4 vs #47). The prophecy favors the bold.",
-      "signature": "0x81bd27121b4d541f95f12f290de122b977669c2bcc02e0e6ea48341f9a8e37762ec0baf5a1251763a38791f8625e443b69c28ef98cd8efaff8379ef8f50660f01b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x0e7151bb49908b9f119e002f24691df152b7761a8f2027eddf25ec4ffda28f52",
-      "created_at": "2026-06-26T22:00:01.226Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 0,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-28T00:00:00.627Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-26T22:00:01.226Z"
     },
-    "MD3-L2": {
+    {
       "match_id": "MD3-L2",
       "home_team": "Croatia",
       "away_team": "Ghana",
@@ -1265,19 +1025,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Croatia comes in as heavy favorites (FIFA #9 vs #60). I've seen this movie before...",
-      "signature": "0x3b8edb2749ef69229718f55623a4de4c5f94137cd0403bdcebcb1f70b9d8e18c3b862d7ffc561b470b33831be1b5b98c457ad2f053b4d6c13b4fe5597a658c6b1b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xa0c2ef90a44e0ec76e69f4e212a73c52b021ae24ccbe14ab1e40001920461cc6",
-      "created_at": "2026-06-26T22:00:08.383Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-28T00:00:06.483Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:08.383Z"
     },
-    "MD3-K1": {
+    {
       "match_id": "MD3-K1",
       "home_team": "Colombia",
       "away_team": "Portugal",
@@ -1285,19 +1041,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Colombia (#10) vs Portugal (#5). Not financial advice. Definitely football advice.",
-      "signature": "0xae695d415894061323c7a37aadbeec9572d42dfc9f347836b4899b598effa7647320774fa6bd44ec695ec8488d0a1873492c9bfbf062a74d9afe678ea4fdfc091c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x14da2b0633739fe4e858cc2ded84a594b7f4a962090c764a23f6629621a8a1cd",
-      "created_at": "2026-06-26T22:00:10.947Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 0,
-      "resolved_at": "2026-06-28T02:00:02.327Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:10.947Z"
     },
-    "MD3-K2": {
+    {
       "match_id": "MD3-K2",
       "home_team": "Congo DR",
       "away_team": "Uzbekistan",
@@ -1305,19 +1057,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Congo DR (#65) vs Uzbekistan (#75). This is the way.",
-      "signature": "0x200b9345bf3e46b8d6f5116d063bab43164bad76a9ac78adea3c957a6f0ebf3d6511a15587654d3633b9313b34e514599b4f6acc45adb9f3204c85c2f8710baa1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x556d0786a3a30ad29620fddf4732dd2053021dfedc2e50cd845d3615cef07d79",
-      "created_at": "2026-06-26T22:00:13.838Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-28T02:00:04.262Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:13.838Z"
     },
-    "MD3-J1": {
+    {
       "match_id": "MD3-J1",
       "home_team": "Algeria",
       "away_team": "Austria",
@@ -1325,19 +1073,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Algeria (#34) vs Austria (#23). The prophecy favors the bold.",
-      "signature": "0x1714e545a1ef5b5b87f4bc5561085119f2e686982352f64ac6206b8e6b07417918ad6d746649742f88f6c8fd249f29e72fb5891a909d1f3ba73e4cb26b00ee251b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x3c8df3b315c86c61a4340a974c24778912637ce9e4f54569f9d05d0e0f6db284",
-      "created_at": "2026-06-26T22:00:21.276Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 3,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-28T06:00:02.515Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:21.276Z"
     },
-    "MD3-J2": {
+    {
       "match_id": "MD3-J2",
       "home_team": "Jordan",
       "away_team": "Argentina",
@@ -1345,19 +1089,15 @@
       "predicted_score_a": 0,
       "predicted_score_b": 3,
       "confidence": "HIGH 🔥",
-      "analysis": "Argentina holds the ranking advantage (FIFA #3 vs #70). This is the way.",
-      "signature": "0x2cb49ca53f473dd4210d59cd6404edf838a0141273a097a0edb306f48d07644c545d5b0f520653af13642767efe4d64b1a9faacb9a7dd801a78a061127bb02eb1c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x83c09a1e831c1d9d2f03232e6d425959997ef970e343242dbf7f2919adbb549a",
-      "created_at": "2026-06-26T22:00:28.553Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 3,
-      "resolved_at": "2026-06-28T06:00:05.357Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-26T22:00:28.553Z"
     },
-    "R32-1": {
+    {
       "match_id": "R32-1",
       "home_team": "South Africa",
       "away_team": "Canada",
@@ -1365,19 +1105,15 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - South Africa (#59) vs Canada (#43). This is the way.",
-      "signature": "0x72c2d1532f14d40f05c6766dcfcd6fa6dcb3f6061949a6f7033777b939daa0081449ba3481c831674576654f3cdc59066af61bd5b2a081ef640fcb28c3ea23721c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x3244f118ebf7e1511b49f60e729eed7f053f747b21bce55b901d742345277d09",
-      "created_at": "2026-06-28T12:35:54.183Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": false,
       "actual_score_a": 0,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-29T15:01:52.529Z"
+      "correct": true,
+      "exact_score": false,
+      "created_at": "2026-06-28T12:35:54.183Z"
     },
-    "R32-2": {
+    {
       "match_id": "R32-2",
       "home_team": "Brazil",
       "away_team": "Japan",
@@ -1385,19 +1121,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "Closely matched on paper - Brazil (#6) vs Japan (#18). This is the way.",
-      "signature": "0xe13627a34a53b5a6796ef063966e1dff456f733c4837921570fd4d1762af494269bcfdfbc0d978841eaa344fa15b9a8e419dc77838506c97c5faef3fe407ee931c",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x716feee1e698db340e764d709be6d829150533e19add3e56858bf992f1794b8e",
-      "created_at": "2026-06-29T14:55:50.709Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-06-29T21:15:05.296Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-06-29T14:55:50.709Z"
     },
-    "R32-3": {
+    {
       "match_id": "R32-3",
       "home_team": "Germany",
       "away_team": "Paraguay",
@@ -1405,19 +1137,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "HIGH 🔥",
-      "analysis": "Germany comes in as heavy favorites (FIFA #12 vs #52). The prophecy favors the bold.",
-      "signature": "0x8ecc329c7bd80d1d7a5075e2b8475e522660a7b01cad83538f6ab917b74629c01a1e6889a92015324a64554cc8c02c6b268ec6cbe7a798258f27864ccc75d6a01b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x9cb0c651466d5973f5e5d885a36391b22fdaeaec36114166801bd4b5d9c7038f",
-      "created_at": "2026-06-29T14:55:55.560Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 5,
       "actual_score_b": 6,
-      "resolved_at": "2026-06-30T00:15:03.841Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-29T14:55:55.560Z"
     },
-    "R32-4": {
+    {
       "match_id": "R32-4",
       "home_team": "Netherlands",
       "away_team": "Morocco",
@@ -1425,21 +1153,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 0,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - Netherlands (#7) vs Morocco (#13). The Oracle's circuits are buzzing on this one.",
-      "signature": "0x00d14706a68c848b07ab43c5ffe4fea15b003ccecaef5de1240b65c34a89cb4625dcfd087735b10165f7931d3109f66563fde316967d136bc57cc744d21cfab21b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x72b9ff1dece285414d3610a7b3ad47da0bebb19ca2cee7845aa25648e7f0eb65",
-      "created_at": "2026-06-29T14:56:01.510Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 1,
-      "actual_winner": "Morocco",
-      "penalties": "Morocco 3-2",
-      "resolved_at": "2026-06-30T15:03:38.975Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-29T14:56:01.510Z"
     },
-    "R32-5": {
+    {
       "match_id": "R32-5",
       "home_team": "Côte d'Ivoire",
       "away_team": "Norway",
@@ -1447,19 +1169,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "analysis": "Closely matched on paper - Côte d'Ivoire (#39) vs Norway (#44). This is the way.",
-      "signature": "0xcac25bbb598d5644785376bb9b1b69db3077f5b7dbf2485082fe4bd652470c9c106d4798bafc25e1195ba8938b84a9ff78af9bc03826caff87729ff63131b7541b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0xca15219f5d3310a5a481aafd1668e169b2d3ce95145f636a530e83987537fa6f",
-      "created_at": "2026-06-30T12:00:10.198Z",
       "resolved": true,
-      "correct": false,
-      "exact_score": false,
       "actual_score_a": 1,
       "actual_score_b": 2,
-      "resolved_at": "2026-06-30T21:15:11.142Z"
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-06-30T12:00:10.198Z"
     },
-    "R32-6": {
+    {
       "match_id": "R32-6",
       "home_team": "France",
       "away_team": "Sweden",
@@ -1467,17 +1185,15 @@
       "predicted_score_a": 3,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "analysis": "France comes in as heavy favorites (FIFA #1 vs #25). Not financial advice. Definitely football advice.",
       "tx_hash": "0xf70dc4ffac7967e51ece269975c5ca3f0efd5784e6ae8780101e944fdd0bc086",
-      "created_at": "2026-06-30T15:02:04.763Z",
       "resolved": true,
       "actual_score_a": 3,
       "actual_score_b": 0,
       "correct": true,
       "exact_score": false,
-      "resolved_at": "2026-07-01T00:15:05.970Z"
+      "created_at": "2026-06-30T15:02:04.763Z"
     },
-    "R32-7": {
+    {
       "match_id": "R32-7",
       "home_team": "Mexico",
       "away_team": "Ecuador",
@@ -1485,17 +1201,15 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "analysis": "Closely matched on paper - Mexico (#15) vs Ecuador (#33). Not financial advice. Definitely football advice.",
       "tx_hash": "0x004b9b4aeb4ca230c8de5e6d77f0b3595e08688e78f380d9128f7f91f9b6c17e",
-      "created_at": "2026-06-30T15:02:05.794Z",
       "resolved": true,
       "actual_score_a": 2,
       "actual_score_b": 0,
       "correct": true,
       "exact_score": false,
-      "resolved_at": "2026-07-01T14:00:02.012Z"
+      "created_at": "2026-06-30T15:02:05.794Z"
     },
-    "R32-8": {
+    {
       "match_id": "R32-8",
       "home_team": "England",
       "away_team": "Congo DR",
@@ -1503,25 +1217,957 @@
       "predicted_score_a": 2,
       "predicted_score_b": 1,
       "confidence": "HIGH 🔥",
-      "analysis": "England comes in as heavy favorites (FIFA #4 vs #65). This is the way.",
-      "signature": "0xa0dba365460991666107063fc1b9c8f32cbe3f859794844db20ab71c5a9d7fc233dd69f7ae7db4f689a8b18ce0f762cee708493f5df230ef1240034462a6f8161b",
-      "signer_address": "0x4bBBdc10AF7A3c57bac8F263b3bcb1f9Ad303fB2",
       "tx_hash": "0x3ca3d5448d5fd30011a4a560ac7060fc991fbdc60e15583b9ee64c55dea84afd",
-      "created_at": "2026-07-01T12:00:04.045Z",
       "resolved": true,
-      "correct": true,
-      "exact_score": true,
       "actual_score_a": 2,
       "actual_score_b": 1,
-      "resolved_at": "2026-07-01T20:00:03.628Z"
+      "correct": true,
+      "exact_score": true,
+      "created_at": "2026-07-01T12:00:04.045Z"
     }
-  },
-  "stats": {
-    "total": 76,
-    "resolved": 72,
-    "correct": 40,
-    "exactScores": 8,
-    "onChain": 76,
-    "accuracy": 41
-  }
+  ],
+  "matches": [
+    {
+      "id": "MD1-A1",
+      "date": "2026-06-11",
+      "time": "15:00",
+      "group": "A",
+      "home": "Mexico",
+      "away": "South Africa",
+      "venue": "Mexico City Stadium",
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": "MD1-A2",
+      "date": "2026-06-11",
+      "time": "22:00",
+      "group": "A",
+      "home": "Korea Republic",
+      "away": "Czechia",
+      "venue": "Guadalajara Stadium",
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "id": "MD1-B1",
+      "date": "2026-06-12",
+      "time": "15:00",
+      "group": "B",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "venue": "Toronto Stadium",
+      "status": "completed"
+    },
+    {
+      "id": "MD1-D1",
+      "date": "2026-06-12",
+      "time": "21:00",
+      "group": "D",
+      "home": "USA",
+      "away": "Paraguay",
+      "venue": "Los Angeles Stadium",
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 1
+    },
+    {
+      "id": "MD1-B2",
+      "date": "2026-06-13",
+      "time": "15:00",
+      "group": "B",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "venue": "San Francisco Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-C1",
+      "date": "2026-06-13",
+      "time": "18:00",
+      "group": "C",
+      "home": "Brazil",
+      "away": "Morocco",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-C2",
+      "date": "2026-06-13",
+      "time": "21:00",
+      "group": "C",
+      "home": "Haiti",
+      "away": "Scotland",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-D2",
+      "date": "2026-06-14",
+      "time": "00:00",
+      "group": "D",
+      "home": "Australia",
+      "away": "Türkiye",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-E1",
+      "date": "2026-06-14",
+      "time": "13:00",
+      "group": "E",
+      "home": "Germany",
+      "away": "Curaçao",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-F1",
+      "date": "2026-06-14",
+      "time": "16:00",
+      "group": "F",
+      "home": "Netherlands",
+      "away": "Japan",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-E2",
+      "date": "2026-06-14",
+      "time": "19:00",
+      "group": "E",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-F2",
+      "date": "2026-06-14",
+      "time": "22:00",
+      "group": "F",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "venue": "Estadio BBVA",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-H1",
+      "date": "2026-06-15",
+      "time": "12:00",
+      "group": "H",
+      "home": "Spain",
+      "away": "Cabo Verde",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-G1",
+      "date": "2026-06-15",
+      "time": "15:00",
+      "group": "G",
+      "home": "Belgium",
+      "away": "Egypt",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-H2",
+      "date": "2026-06-15",
+      "time": "18:00",
+      "group": "H",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "venue": "Hard Rock Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-G2",
+      "date": "2026-06-15",
+      "time": "21:00",
+      "group": "G",
+      "home": "IR Iran",
+      "away": "New Zealand",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-I1",
+      "date": "2026-06-16",
+      "time": "15:00",
+      "group": "I",
+      "home": "France",
+      "away": "Senegal",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-I2",
+      "date": "2026-06-16",
+      "time": "18:00",
+      "group": "I",
+      "home": "Iraq",
+      "away": "Norway",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-J1",
+      "date": "2026-06-16",
+      "time": "21:00",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Algeria",
+      "venue": "Arrowhead Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-J2",
+      "date": "2026-06-17",
+      "time": "00:00",
+      "group": "J",
+      "home": "Austria",
+      "away": "Jordan",
+      "venue": "Levi's Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-K1",
+      "date": "2026-06-17",
+      "time": "13:00",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Congo DR",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-L1",
+      "date": "2026-06-17",
+      "time": "16:00",
+      "group": "L",
+      "home": "England",
+      "away": "Croatia",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-L2",
+      "date": "2026-06-17",
+      "time": "19:00",
+      "group": "L",
+      "home": "Ghana",
+      "away": "Panama",
+      "venue": "BMO Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD1-K2",
+      "date": "2026-06-17",
+      "time": "22:00",
+      "group": "K",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-A1",
+      "date": "2026-06-18",
+      "time": "12:00",
+      "group": "A",
+      "home": "Czechia",
+      "away": "South Africa",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-B1",
+      "date": "2026-06-18",
+      "time": "15:00",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-B2",
+      "date": "2026-06-18",
+      "time": "18:00",
+      "group": "B",
+      "home": "Canada",
+      "away": "Qatar",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-A2",
+      "date": "2026-06-18",
+      "time": "21:00",
+      "group": "A",
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "venue": "Estadio Akron",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-D1",
+      "date": "2026-06-19",
+      "time": "15:00",
+      "group": "D",
+      "home": "USA",
+      "away": "Australia",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-C1",
+      "date": "2026-06-19",
+      "time": "18:00",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Morocco",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-C2",
+      "date": "2026-06-19",
+      "time": "20:30",
+      "group": "C",
+      "home": "Brazil",
+      "away": "Haiti",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-D2",
+      "date": "2026-06-19",
+      "time": "23:00",
+      "group": "D",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "venue": "Levi's Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-F1",
+      "date": "2026-06-20",
+      "time": "13:00",
+      "group": "F",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-E1",
+      "date": "2026-06-20",
+      "time": "16:00",
+      "group": "E",
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "venue": "BMO Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-E2",
+      "date": "2026-06-20",
+      "time": "20:00",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "venue": "Arrowhead Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-F2",
+      "date": "2026-06-21",
+      "time": "00:00",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Japan",
+      "venue": "Estadio BBVA",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-H1",
+      "date": "2026-06-21",
+      "time": "12:00",
+      "group": "H",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-G1",
+      "date": "2026-06-21",
+      "time": "15:00",
+      "group": "G",
+      "home": "Belgium",
+      "away": "IR Iran",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-H2",
+      "date": "2026-06-21",
+      "time": "18:00",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "venue": "Hard Rock Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-G2",
+      "date": "2026-06-21",
+      "time": "21:00",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-J1",
+      "date": "2026-06-22",
+      "time": "13:00",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Austria",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-I1",
+      "date": "2026-06-22",
+      "time": "17:00",
+      "group": "I",
+      "home": "France",
+      "away": "Iraq",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-I2",
+      "date": "2026-06-22",
+      "time": "20:00",
+      "group": "I",
+      "home": "Norway",
+      "away": "Senegal",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-J2",
+      "date": "2026-06-22",
+      "time": "23:00",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Algeria",
+      "venue": "Levi's Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-K1",
+      "date": "2026-06-23",
+      "time": "13:00",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-L1",
+      "date": "2026-06-23",
+      "time": "16:00",
+      "group": "L",
+      "home": "England",
+      "away": "Ghana",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-L2",
+      "date": "2026-06-23",
+      "time": "19:00",
+      "group": "L",
+      "home": "Panama",
+      "away": "Croatia",
+      "venue": "BMO Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD2-K2",
+      "date": "2026-06-23",
+      "time": "22:00",
+      "group": "K",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "venue": "Estadio Akron",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-B1",
+      "date": "2026-06-24",
+      "time": "15:00",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Canada",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-B2",
+      "date": "2026-06-24",
+      "time": "15:00",
+      "group": "B",
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-C1",
+      "date": "2026-06-24",
+      "time": "18:00",
+      "group": "C",
+      "home": "Morocco",
+      "away": "Haiti",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-C2",
+      "date": "2026-06-24",
+      "time": "18:00",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Brazil",
+      "venue": "Hard Rock Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-A1",
+      "date": "2026-06-24",
+      "time": "21:00",
+      "group": "A",
+      "home": "Czechia",
+      "away": "Mexico",
+      "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-A2",
+      "date": "2026-06-24",
+      "time": "21:00",
+      "group": "A",
+      "home": "South Africa",
+      "away": "Korea Republic",
+      "venue": "Estadio BBVA",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-E1",
+      "date": "2026-06-25",
+      "time": "16:00",
+      "group": "E",
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-E2",
+      "date": "2026-06-25",
+      "time": "16:00",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Germany",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-F1",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "group": "F",
+      "home": "Japan",
+      "away": "Sweden",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-F2",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "venue": "Arrowhead Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-D1",
+      "date": "2026-06-25",
+      "time": "22:00",
+      "group": "D",
+      "home": "Türkiye",
+      "away": "USA",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-D2",
+      "date": "2026-06-25",
+      "time": "22:00",
+      "group": "D",
+      "home": "Paraguay",
+      "away": "Australia",
+      "venue": "Levi's Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-I1",
+      "date": "2026-06-26",
+      "time": "15:00",
+      "group": "I",
+      "home": "Norway",
+      "away": "France",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-I2",
+      "date": "2026-06-26",
+      "time": "15:00",
+      "group": "I",
+      "home": "Senegal",
+      "away": "Iraq",
+      "venue": "BMO Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-H1",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "group": "H",
+      "home": "Cabo Verde",
+      "away": "Saudi Arabia",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-H2",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Spain",
+      "venue": "Estadio Akron",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-G1",
+      "date": "2026-06-26",
+      "time": "23:00",
+      "group": "G",
+      "home": "Egypt",
+      "away": "IR Iran",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-G2",
+      "date": "2026-06-26",
+      "time": "23:00",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-L1",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "group": "L",
+      "home": "Panama",
+      "away": "England",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-L2",
+      "date": "2026-06-27",
+      "time": "17:00",
+      "group": "L",
+      "home": "Croatia",
+      "away": "Ghana",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-K1",
+      "date": "2026-06-27",
+      "time": "19:30",
+      "group": "K",
+      "home": "Colombia",
+      "away": "Portugal",
+      "venue": "Hard Rock Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-K2",
+      "date": "2026-06-27",
+      "time": "19:30",
+      "group": "K",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-J1",
+      "date": "2026-06-27",
+      "time": "22:00",
+      "group": "J",
+      "home": "Algeria",
+      "away": "Austria",
+      "venue": "Arrowhead Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "MD3-J2",
+      "date": "2026-06-27",
+      "time": "22:00",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Argentina",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-1",
+      "date": "2026-06-28",
+      "time": "11:00",
+      "home": "South Africa",
+      "away": "Canada",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-2",
+      "date": "2026-06-29",
+      "time": "13:00",
+      "home": "Brazil",
+      "away": "Japan",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-3",
+      "date": "2026-06-29",
+      "time": "16:30",
+      "home": "Germany",
+      "away": "Paraguay",
+      "venue": "Gillette Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-4",
+      "date": "2026-06-29",
+      "time": "21:00",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "venue": "Estadio BBVA",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-5",
+      "date": "2026-06-30",
+      "time": "13:00",
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-6",
+      "date": "2026-06-30",
+      "time": "17:00",
+      "home": "France",
+      "away": "Sweden",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-7",
+      "date": "2026-06-30",
+      "time": "21:00",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-8",
+      "date": "2026-07-01",
+      "time": "12:00",
+      "home": "England",
+      "away": "Congo DR",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-9",
+      "date": "2026-07-01",
+      "time": "16:00",
+      "home": "Belgium",
+      "away": "Senegal",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-10",
+      "date": "2026-07-01",
+      "time": "20:00",
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
+      "venue": "Levi's Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-11",
+      "date": "2026-07-02",
+      "time": "15:00",
+      "home": "Spain",
+      "away": "Austria",
+      "venue": "SoFi Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-12",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "home": "Portugal",
+      "away": "Croatia",
+      "venue": "BMO Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-13",
+      "date": "2026-07-02",
+      "time": "23:00",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-14",
+      "date": "2026-07-03",
+      "time": "14:00",
+      "home": "Australia",
+      "away": "Egypt",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-15",
+      "date": "2026-07-03",
+      "time": "18:00",
+      "home": "Argentina",
+      "away": "Cabo Verde",
+      "venue": "Hard Rock Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R32-16",
+      "date": "2026-07-03",
+      "time": "21:30",
+      "home": "Colombia",
+      "away": "Ghana",
+      "venue": "Arrowhead Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-1",
+      "date": "2026-07-04",
+      "time": "13:00",
+      "home": "Canada",
+      "away": "Morocco",
+      "venue": "NRG Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-2",
+      "date": "2026-07-04",
+      "time": "17:00",
+      "home": "Paraguay",
+      "away": "France",
+      "venue": "Lincoln Financial Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-3",
+      "date": "2026-07-05",
+      "time": "16:00",
+      "home": "Brazil",
+      "away": "Norway",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-4",
+      "date": "2026-07-06",
+      "time": "13:00",
+      "home": "Mexico",
+      "away": "TBD",
+      "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-5",
+      "date": "2026-07-06",
+      "time": "15:00",
+      "home": "TBD",
+      "away": "TBD",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-6",
+      "date": "2026-07-07",
+      "time": "12:00",
+      "home": "TBD",
+      "away": "TBD",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-7",
+      "date": "2026-07-07",
+      "time": "12:00",
+      "home": "TBD",
+      "away": "TBD",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-8",
+      "date": "2026-07-07",
+      "time": "16:00",
+      "home": "TBD",
+      "away": "TBD",
+      "venue": "BC Place",
+      "status": "scheduled"
+    }
+  ]
 }
