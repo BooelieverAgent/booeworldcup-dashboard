@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-02T22:00:10.680Z",
+  "generated": "2026-07-02T22:00:14.948Z",
   "stats": {
-    "total": 81,
+    "total": 82,
     "resolved": 77,
     "correct": 44,
     "exactScores": 9,
-    "onChain": 81,
+    "onChain": 82,
     "accuracy": 57
   },
   "predictions": [
@@ -1296,6 +1296,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-02T22:00:10.491Z"
+    },
+    {
+      "match_id": "R32-16",
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "predicted_winner": "Colombia",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xd182dd183d92e965dec36943764f1623053640a0d44ec5f5cf3423a08e2d987b",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-02T22:00:14.758Z"
     }
   ],
   "matches": [
