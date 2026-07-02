@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-02T22:00:06.040Z",
+  "generated": "2026-07-02T22:00:10.680Z",
   "stats": {
-    "total": 80,
+    "total": 81,
     "resolved": 77,
     "correct": 44,
     "exactScores": 9,
-    "onChain": 80,
+    "onChain": 81,
     "accuracy": 57
   },
   "predictions": [
@@ -1282,6 +1282,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-02T22:00:05.877Z"
+    },
+    {
+      "match_id": "R32-15",
+      "home_team": "Argentina",
+      "away_team": "Cabo Verde",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xcd47affedd22242282afb0f20b01afee3101e5334c6bc59dac862e88b45a4b07",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-02T22:00:10.491Z"
     }
   ],
   "matches": [
