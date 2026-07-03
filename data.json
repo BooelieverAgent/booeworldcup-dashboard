@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-03T22:00:03.792Z",
+  "generated": "2026-07-03T22:00:11.244Z",
   "stats": {
-    "total": 83,
+    "total": 84,
     "resolved": 80,
     "correct": 47,
     "exactScores": 9,
-    "onChain": 83,
+    "onChain": 84,
     "accuracy": 59
   },
   "predictions": [
@@ -1330,6 +1330,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-03T22:00:01.618Z"
+    },
+    {
+      "match_id": "R16-2",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "predicted_score_a": 0,
+      "predicted_score_b": 3,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x0a95968c623962752793cb34eb6ebb167949e02534f02e9a2545ff3c030c4376",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-03T22:00:11.056Z"
     }
   ],
   "matches": [
