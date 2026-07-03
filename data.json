@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-03T21:15:11.131Z",
+  "generated": "2026-07-03T22:00:01.767Z",
   "stats": {
-    "total": 84,
-    "resolved": 82,
-    "correct": 49,
+    "total": 83,
+    "resolved": 79,
+    "correct": 46,
     "exactScores": 9,
-    "onChain": 84,
-    "accuracy": 60
+    "onChain": 83,
+    "accuracy": 58
   },
   "predictions": [
     {
@@ -1282,10 +1282,8 @@
       "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
       "tx_hash": "0xea0932f96671f8978fc36838c9ff8b64a52b619f33fcc8077bea90aafb9bb519",
-      "resolved": true,
-      "actual_score_a": 3,
-      "actual_score_b": 5,
-      "correct": true,
+      "resolved": false,
+      "correct": false,
       "exact_score": false,
       "created_at": "2026-07-02T22:00:05.877Z"
     },
@@ -1318,36 +1316,18 @@
       "created_at": "2026-07-02T22:00:14.758Z"
     },
     {
-      "match_id": "R32-9",
-      "home_team": "Belgium",
-      "away_team": "Senegal",
-      "predicted_winner": "Belgium",
-      "predicted_score_a": 1,
-      "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x953dbb0a00d47c56f0281bff1e492200c0cda44e0c6f780b46f9527ec5799a9a",
-      "resolved": true,
-      "actual_score_a": 3,
-      "actual_score_b": 2,
-      "correct": true,
+      "match_id": "R16-1",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "predicted_winner": "Canada",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x7c565ebbce33c95da277412b4447f4725a474eda3733f6b5acd283f6acd9c530",
+      "resolved": false,
+      "correct": false,
       "exact_score": false,
-      "created_at": "2026-07-01T13:14:25.000Z"
-    },
-    {
-      "match_id": "R32-10",
-      "home_team": "USA",
-      "away_team": "Bosnia and Herzegovina",
-      "predicted_winner": "USA",
-      "predicted_score_a": 3,
-      "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x68fdab897032c220f9aa9c93940910862acf9cabbf9924aa3c31b7e20e45ce3e",
-      "resolved": true,
-      "actual_score_a": 2,
-      "actual_score_b": 0,
-      "correct": true,
-      "exact_score": false,
-      "created_at": "2026-07-01T13:14:29.000Z"
+      "created_at": "2026-07-03T22:00:01.618Z"
     }
   ],
   "matches": [
