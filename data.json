@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-04T20:00:01.578Z",
+  "generated": "2026-07-04T20:00:04.199Z",
   "stats": {
-    "total": 86,
-    "resolved": 84,
-    "correct": 51,
+    "total": 84,
+    "resolved": 83,
+    "correct": 49,
     "exactScores": 9,
-    "onChain": 86,
-    "accuracy": 61
+    "onChain": 84,
+    "accuracy": 59
   },
   "predictions": [
     {
@@ -1330,7 +1330,9 @@
       "predicted_score_b": 1,
       "confidence": "UNCERTAIN 🎲",
       "tx_hash": "0x7c565ebbce33c95da277412b4447f4725a474eda3733f6b5acd283f6acd9c530",
-      "resolved": false,
+      "resolved": true,
+      "actual_score_a": 0,
+      "actual_score_b": 3,
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-03T22:00:01.618Z"
@@ -1348,38 +1350,6 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-03T22:00:11.056Z"
-    },
-    {
-      "match_id": "R32-9",
-      "home_team": "Belgium",
-      "away_team": "Senegal",
-      "predicted_winner": "Belgium",
-      "predicted_score_a": 1,
-      "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x953dbb0a00d47c56f0281bff1e492200c0cda44e0c6f780b46f9527ec5799a9a",
-      "resolved": true,
-      "actual_score_a": 3,
-      "actual_score_b": 2,
-      "correct": true,
-      "exact_score": false,
-      "created_at": "2026-07-01T13:14:25.000Z"
-    },
-    {
-      "match_id": "R32-10",
-      "home_team": "USA",
-      "away_team": "Bosnia and Herzegovina",
-      "predicted_winner": "USA",
-      "predicted_score_a": 3,
-      "predicted_score_b": 0,
-      "confidence": "HIGH 🔥",
-      "tx_hash": "0x68fdab897032c220f9aa9c93940910862acf9cabbf9924aa3c31b7e20e45ce3e",
-      "resolved": true,
-      "actual_score_a": 2,
-      "actual_score_b": 0,
-      "correct": true,
-      "exact_score": false,
-      "created_at": "2026-07-01T13:14:29.000Z"
     }
   ],
   "matches": [
