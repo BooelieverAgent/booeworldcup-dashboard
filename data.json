@@ -2288,42 +2288,6 @@
       "away": "England",
       "venue": "Estadio Azteca",
       "status": "scheduled"
-    },
-    {
-      "id": "R16-5",
-      "date": "2026-07-06",
-      "time": "15:00",
-      "home": "TBD",
-      "away": "TBD",
-      "venue": "AT&T Stadium",
-      "status": "scheduled"
-    },
-    {
-      "id": "R16-6",
-      "date": "2026-07-07",
-      "time": "12:00",
-      "home": "TBD",
-      "away": "TBD",
-      "venue": "Mercedes-Benz Stadium",
-      "status": "scheduled"
-    },
-    {
-      "id": "R16-7",
-      "date": "2026-07-07",
-      "time": "12:00",
-      "home": "TBD",
-      "away": "TBD",
-      "venue": "Lumen Field",
-      "status": "scheduled"
-    },
-    {
-      "id": "R16-8",
-      "date": "2026-07-07",
-      "time": "16:00",
-      "home": "TBD",
-      "away": "TBD",
-      "venue": "BC Place",
-      "status": "scheduled"
     }
   ]
 }
