@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T22:00:36.396Z",
+  "generated": "2026-07-05T22:20:05.996Z",
   "stats": {
     "total": 87,
     "resolved": 84,
@@ -1370,16 +1370,16 @@
     {
       "match_id": "R16-4",
       "home_team": "Mexico",
-      "away_team": "TBD",
-      "predicted_winner": "Mexico",
+      "away_team": "England",
+      "predicted_winner": "England",
       "predicted_score_a": 2,
-      "predicted_score_b": 1,
+      "predicted_score_b": 3,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": null,
+      "tx_hash": "0xb42964be087795bf8486a81272bda3c48599696e245c04145c78dde9e8055d3d",
       "resolved": false,
       "correct": false,
       "exact_score": false,
-      "created_at": "2026-07-05T22:00:00.744Z"
+      "created_at": "2026-07-05T12:04:10.183Z"
     },
     {
       "match_id": "R16-5",
@@ -2299,7 +2299,7 @@
       "date": "2026-07-06",
       "time": "13:00",
       "home": "Mexico",
-      "away": "TBD",
+      "away": "England",
       "venue": "Estadio Azteca",
       "status": "scheduled"
     },
