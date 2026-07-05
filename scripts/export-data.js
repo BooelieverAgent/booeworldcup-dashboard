@@ -43,18 +43,21 @@ const exactScores = predictions.filter(p => p.exact_score).length;
 const onChain = predictions.filter(p => p.tx_hash).length;
 
 // Format matches for frontend (group stage + knockout)
-const matches = ALL_MATCHES.map(m => ({
-  id: m.id,
-  date: m.date,
-  time: m.time,
-  group: m.group,
-  home: m.home,
-  away: m.away,
-  venue: m.venue,
-  status: m.status,
-  homeScore: m.homeScore,
-  awayScore: m.awayScore
-}));
+// Filter out TBD matches (future knockouts with no teams yet)
+const matches = ALL_MATCHES
+  .filter(m => m.home !== 'TBD' && m.away !== 'TBD')
+  .map(m => ({
+    id: m.id,
+    date: m.date,
+    time: m.time,
+    group: m.group,
+    home: m.home,
+    away: m.away,
+    venue: m.venue,
+    status: m.status,
+    homeScore: m.homeScore,
+    awayScore: m.awayScore
+  }));
 
 // Build output
 const output = {
@@ -67,22 +70,25 @@ const output = {
     onChain,
     accuracy: resolved > 0 ? Math.round((correct / resolved) * 100) : 0
   },
-  predictions: predictions.map(p => ({
-    match_id: p.match_id,
-    home_team: p.home_team,
-    away_team: p.away_team,
-    predicted_winner: p.predicted_winner,
-    predicted_score_a: p.predicted_score_a,
-    predicted_score_b: p.predicted_score_b,
-    confidence: p.confidence,
-    tx_hash: p.tx_hash,
-    resolved: !!p.resolved,
-    actual_score_a: p.actual_score_a,
-    actual_score_b: p.actual_score_b,
-    correct: !!p.correct,
-    exact_score: !!p.exact_score,
-    created_at: p.created_at
-  })),
+  // Filter out TBD predictions (placeholder data)
+  predictions: predictions
+    .filter(p => p.home_team !== 'TBD' && p.away_team !== 'TBD')
+    .map(p => ({
+      match_id: p.match_id,
+      home_team: p.home_team,
+      away_team: p.away_team,
+      predicted_winner: p.predicted_winner,
+      predicted_score_a: p.predicted_score_a,
+      predicted_score_b: p.predicted_score_b,
+      confidence: p.confidence,
+      tx_hash: p.tx_hash,
+      resolved: !!p.resolved,
+      actual_score_a: p.actual_score_a,
+      actual_score_b: p.actual_score_b,
+      correct: !!p.correct,
+      exact_score: !!p.exact_score,
+      created_at: p.created_at
+    })),
   matches
 };
 
