@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-06T08:53:38.351Z",
+  "generated": "2026-07-06T08:55:07.065Z",
   "stats": {
-    "total": 89,
+    "total": 90,
     "resolved": 88,
     "correct": 53,
     "exactScores": 10,
-    "onChain": 89,
+    "onChain": 90,
     "accuracy": 60
   },
   "predictions": [
@@ -1416,6 +1416,34 @@
       "correct": true,
       "exact_score": false,
       "created_at": "2026-07-01T13:14:29.000Z"
+    },
+    {
+      "match_id": "R16-5",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x079f9692bebfb10d8f424e9f640824b98315aeb1affcbdb9555b91e2ea6cefdd",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-05T22:00:19.000Z"
+    },
+    {
+      "match_id": "R16-6",
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 1,
+      "predicted_score_b": 1,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x8fbfb3a875c23e44fbc5c154f8740ff91031f08a29a5c0043588600c55e0194d",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-06T08:55:01.889Z"
     }
   ],
   "matches": [
