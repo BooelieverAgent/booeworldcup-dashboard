@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-06T22:00:11.815Z",
+  "generated": "2026-07-06T22:00:32.101Z",
   "stats": {
-    "total": 88,
+    "total": 89,
     "resolved": 85,
     "correct": 50,
     "exactScores": 9,
-    "onChain": 87,
+    "onChain": 88,
     "accuracy": 59
   },
   "predictions": [
