@@ -113,6 +113,15 @@ function getStageName(match) {
 
 // Render a single match card
 function renderMatchCard(prediction, match) {
+  const homeFlag = getFlag(match.home);
+  const awayFlag = getFlag(match.away);
+  const stageName = getStageName(match);
+  
+  // Handle case where no prediction exists yet
+  if (!prediction) {
+    return '<div class="match-card upcoming"><div class="match-header"><span class="match-group">' + stageName + '</span><span class="match-time">' + match.date + ' • ' + match.time + ' ET</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">⏳ Coming Soon</span><span class="prediction-score">Check back before kickoff!</span></div><div class="match-footer"><span class="proof-link">🔮 Prediction pending</span></div></div>';
+  }
+  
   const isResolved = prediction.resolved;
   const isCorrect = prediction.correct;
   const isExact = prediction.exact_score;
@@ -121,11 +130,6 @@ function renderMatchCard(prediction, match) {
   if (isResolved) {
     cardClass += isCorrect ? ' correct' : ' wrong';
   }
-  
-  const homeFlag = getFlag(match.home);
-  const awayFlag = getFlag(match.away);
-  
-  const stageName = getStageName(match);
   
   const outcomeText = prediction.predicted_winner === match.home 
     ? homeFlag + ' ' + match.home + ' Win'
@@ -140,7 +144,7 @@ function renderMatchCard(prediction, match) {
     resultHtml = '<div class="match-result ' + resultClass + '"><span class="result-label">Final Score</span><span class="result-value">' + prediction.actual_score_a + ' - ' + prediction.actual_score_b + ' ' + resultIcon + '</span></div>';
   }
   
-  return '<div class="' + cardClass + '"><div class="match-header"><span class="match-group">' + stageName + '</span><span class="match-time">' + match.time + ' ET</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">' + outcomeText + '</span><span class="prediction-score">Bonus Score: ' + prediction.predicted_score_a + '-' + prediction.predicted_score_b + '</span></div>' + resultHtml + '<div class="match-footer">' + (prediction.tx_hash ? '<a href="https://basescan.org/tx/' + prediction.tx_hash + '" target="_blank" class="proof-link">⛓️ View On-Chain Proof</a>' : '<span class="proof-link">📝 Off-chain</span>') + '</div></div>';
+  return '<div class="' + cardClass + '"><div class="match-header"><span class="match-group">' + stageName + '</span><span class="match-time">' + match.date + ' • ' + match.time + ' ET</span></div><div class="match-teams"><div class="team"><span class="team-flag">' + homeFlag + '</span><span class="team-name">' + match.home + '</span></div><span class="match-vs">vs</span><div class="team"><span class="team-flag">' + awayFlag + '</span><span class="team-name">' + match.away + '</span></div></div><div class="match-prediction"><span class="prediction-label">Oracle Prediction</span><span class="prediction-value">' + outcomeText + '</span><span class="prediction-score">Bonus Score: ' + prediction.predicted_score_a + '-' + prediction.predicted_score_b + '</span></div>' + resultHtml + '<div class="match-footer">' + (prediction.tx_hash ? '<a href="https://basescan.org/tx/' + prediction.tx_hash + '" target="_blank" class="proof-link">⛓️ View On-Chain Proof</a>' : '<span class="proof-link">📝 Off-chain</span>') + '</div></div>';
 }
 
 // Render today's matches
@@ -152,30 +156,27 @@ function renderTodayMatches(data) {
   
   dateEl.textContent = formatDate(today) + ' (ET)';
   
-  // Get matches within next 24 hours (today + early tomorrow)
-  const upcomingPredictions = data.predictions.filter(p => {
-    const match = data.matches.find(m => m.id === p.match_id);
-    if (!match) return false;
-    return isWithin24Hours(match.date, match.time);
+  // Get ALL matches within next 48 hours (today + tomorrow)
+  const upcomingMatches = data.matches.filter(m => {
+    if (!m.home || m.home === 'TBD') return false;
+    return isWithin24Hours(m.date, m.time) || m.date === tomorrow;
   });
   
   // Sort by match time
-  upcomingPredictions.sort((a, b) => {
-    const matchA = data.matches.find(m => m.id === a.match_id);
-    const matchB = data.matches.find(m => m.id === b.match_id);
-    const dateTimeA = new Date(matchA.date + 'T' + (matchA.time || '12:00'));
-    const dateTimeB = new Date(matchB.date + 'T' + (matchB.time || '12:00'));
+  upcomingMatches.sort((a, b) => {
+    const dateTimeA = new Date(a.date + 'T' + (a.time || '12:00'));
+    const dateTimeB = new Date(b.date + 'T' + (b.time || '12:00'));
     return dateTimeA - dateTimeB;
   });
   
-  if (upcomingPredictions.length === 0) {
-    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><p>No predictions for today yet. Check back later!</p></div>';
+  if (upcomingMatches.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📅</div><p>No upcoming matches. Check back later!</p></div>';
     return;
   }
   
-  container.innerHTML = upcomingPredictions.map(p => {
-    const match = data.matches.find(m => m.id === p.match_id);
-    return renderMatchCard(p, match);
+  container.innerHTML = upcomingMatches.map(match => {
+    const prediction = data.predictions.find(p => p.match_id === match.id);
+    return renderMatchCard(prediction, match);
   }).join('');
 }
 
