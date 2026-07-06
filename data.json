@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-06T09:00:01.704Z",
+  "generated": "2026-07-06T09:00:25.044Z",
   "stats": {
-    "total": 90,
+    "total": 92,
     "resolved": 88,
     "correct": 53,
     "exactScores": 10,
-    "onChain": 90,
+    "onChain": 92,
     "accuracy": 60
   },
   "predictions": [
@@ -1444,6 +1444,34 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-06T08:55:01.889Z"
+    },
+    {
+      "match_id": "R16-7",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xcbd7a09bea29927efe0d2a84bc31013552e4810432713753b6ac6843113a4c0a",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-06T09:00:17.467Z"
+    },
+    {
+      "match_id": "R16-8",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "predicted_winner": "Colombia",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x37cda9bd7d4575941402cd743dbd0fed03ab3322f7416d52495851dcb6f08dec",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-06T09:00:21.843Z"
     }
   ],
   "matches": [
