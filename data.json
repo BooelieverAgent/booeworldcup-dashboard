@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T08:55:07.065Z",
+  "generated": "2026-07-06T08:56:46.156Z",
   "stats": {
     "total": 90,
     "resolved": 88,
@@ -2351,6 +2351,42 @@
       "home": "Mexico",
       "away": "England",
       "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-5",
+      "date": "2026-07-06",
+      "time": "15:00",
+      "home": "Portugal",
+      "away": "Spain",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-6",
+      "date": "2026-07-06",
+      "time": "20:00",
+      "home": "USA",
+      "away": "Belgium",
+      "venue": "Lumen Field",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-7",
+      "date": "2026-07-07",
+      "time": "12:00",
+      "home": "Argentina",
+      "away": "Egypt",
+      "venue": "Mercedes-Benz Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "R16-8",
+      "date": "2026-07-07",
+      "time": "16:00",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "venue": "BC Place",
       "status": "scheduled"
     }
   ]
