@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-05T23:00:01.640Z",
+  "generated": "2026-07-06T00:00:06.931Z",
   "stats": {
-    "total": 86,
-    "resolved": 84,
+    "total": 87,
+    "resolved": 85,
     "correct": 50,
     "exactScores": 9,
     "onChain": 86,
-    "accuracy": 60
+    "accuracy": 59
   },
   "predictions": [
     {
@@ -1362,24 +1362,12 @@
       "predicted_score_b": 0,
       "confidence": "MEDIUM ⚡",
       "tx_hash": "0xd28614352e9271a71184996ab3be8f098b578f8adda7b158648673e75ac8f642",
-      "resolved": false,
+      "resolved": true,
+      "actual_score_a": 1,
+      "actual_score_b": 2,
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-04T22:00:01.226Z"
-    },
-    {
-      "match_id": "R16-4",
-      "home_team": "Mexico",
-      "away_team": "England",
-      "predicted_winner": "England",
-      "predicted_score_a": 2,
-      "predicted_score_b": 3,
-      "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0xb42964be087795bf8486a81272bda3c48599696e245c04145c78dde9e8055d3d",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-07-05T12:04:10.183Z"
     }
   ],
   "matches": [
