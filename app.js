@@ -198,7 +198,10 @@ function renderPredictionsTable(data, filter) {
   predictions.sort((a, b) => {
     const matchA = data.matches.find(m => m.id === a.match_id);
     const matchB = data.matches.find(m => m.id === b.match_id);
-    return new Date(matchB?.date || 0) - new Date(matchA?.date || 0);
+    // Sort by date+time, newest first
+    const dateTimeA = new Date((matchA?.date || '1970-01-01') + 'T' + (matchA?.time || '00:00'));
+    const dateTimeB = new Date((matchB?.date || '1970-01-01') + 'T' + (matchB?.time || '00:00'));
+    return dateTimeB - dateTimeA;
   });
   
   if (predictions.length === 0) {
