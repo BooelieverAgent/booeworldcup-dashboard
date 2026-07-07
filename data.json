@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T00:00:01.578Z",
+  "generated": "2026-07-07T00:00:17.226Z",
   "stats": {
     "total": 90,
     "resolved": 87,
@@ -1409,7 +1409,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 1,
       "confidence": "MEDIUM ⚡",
-      "tx_hash": "0x079f9692bebfb10d8f424e9f640824b98315aeb1affcbdb9555b91e2ea6cefdd",
+      "tx_hash": "0x8fbfb3a875c23e44fbc5c154f8740ff91031f08a29a5c0043588600c55e0194d",
       "resolved": false,
       "correct": false,
       "exact_score": false,
@@ -1423,7 +1423,7 @@
       "predicted_score_a": 2,
       "predicted_score_b": 0,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x079f9692bebfb10d8f424e9f640824b98315aeb1affcbdb9555b91e2ea6cefdd",
+      "tx_hash": "0xcbd7a09bea29927efe0d2a84bc31013552e4810432713753b6ac6843113a4c0a",
       "resolved": false,
       "correct": false,
       "exact_score": false,
@@ -1437,7 +1437,7 @@
       "predicted_score_a": 1,
       "predicted_score_b": 2,
       "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x079f9692bebfb10d8f424e9f640824b98315aeb1affcbdb9555b91e2ea6cefdd",
+      "tx_hash": "0x37cda9bd7d4575941402cd743dbd0fed03ab3322f7416d52495851dcb6f08dec",
       "resolved": false,
       "correct": false,
       "exact_score": false,
