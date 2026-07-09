@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-09T12:00:01.462Z",
+  "generated": "2026-07-09T12:34:13.122Z",
   "stats": {
-    "total": 92,
+    "total": 93,
     "resolved": 92,
     "correct": 55,
     "exactScores": 10,
-    "onChain": 92,
+    "onChain": 93,
     "accuracy": 60
   },
   "predictions": [
@@ -1480,6 +1480,20 @@
       "correct": true,
       "exact_score": false,
       "created_at": "2026-07-01T13:14:29.000Z"
+    },
+    {
+      "match_id": "QF-1",
+      "home_team": "Morocco",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "predicted_score_a": 2,
+      "predicted_score_b": 3,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x5d6c81a09516ca2e9ac4f6c1313b694996d0a0ecb4f3f4cc82dad2cb635c33c3",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-09T12:34:09.383Z"
     }
   ],
   "matches": [
@@ -2423,6 +2437,42 @@
       "home": "Switzerland",
       "away": "Colombia",
       "venue": "BC Place",
+      "status": "scheduled"
+    },
+    {
+      "id": "QF-1",
+      "date": "2026-07-09",
+      "time": "13:00",
+      "home": "Morocco",
+      "away": "France",
+      "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "QF-2",
+      "date": "2026-07-09",
+      "time": "17:00",
+      "home": "Norway",
+      "away": "England",
+      "venue": "AT&T Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "QF-3",
+      "date": "2026-07-10",
+      "time": "13:00",
+      "home": "Spain",
+      "away": "Belgium",
+      "venue": "Estadio Azteca",
+      "status": "scheduled"
+    },
+    {
+      "id": "QF-4",
+      "date": "2026-07-10",
+      "time": "17:00",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "venue": "Hard Rock Stadium",
       "status": "scheduled"
     }
   ]
