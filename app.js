@@ -156,10 +156,10 @@ function renderTodayMatches(data) {
   
   dateEl.textContent = formatDate(today) + ' (ET)';
   
-  // Get ALL matches within next 48 hours (today + tomorrow)
+  // Get only TODAY's matches
   const upcomingMatches = data.matches.filter(m => {
     if (!m.home || m.home === 'TBD') return false;
-    return isWithin24Hours(m.date, m.time) || m.date === tomorrow;
+    return m.date === today;
   });
   
   // Sort by match time
