@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T12:34:13.122Z",
+  "generated": "2026-07-09T12:36:40.894Z",
   "stats": {
     "total": 93,
     "resolved": 92,
@@ -2442,7 +2442,7 @@
     {
       "id": "QF-1",
       "date": "2026-07-09",
-      "time": "13:00",
+      "time": "15:00",
       "home": "Morocco",
       "away": "France",
       "venue": "MetLife Stadium",
@@ -2450,8 +2450,8 @@
     },
     {
       "id": "QF-2",
-      "date": "2026-07-09",
-      "time": "17:00",
+      "date": "2026-07-10",
+      "time": "15:00",
       "home": "Norway",
       "away": "England",
       "venue": "AT&T Stadium",
@@ -2459,8 +2459,8 @@
     },
     {
       "id": "QF-3",
-      "date": "2026-07-10",
-      "time": "13:00",
+      "date": "2026-07-11",
+      "time": "15:00",
       "home": "Spain",
       "away": "Belgium",
       "venue": "Estadio Azteca",
@@ -2468,8 +2468,8 @@
     },
     {
       "id": "QF-4",
-      "date": "2026-07-10",
-      "time": "17:00",
+      "date": "2026-07-12",
+      "time": "15:00",
       "home": "Argentina",
       "away": "Switzerland",
       "venue": "Hard Rock Stadium",
