@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-10T16:00:01.352Z",
+  "generated": "2026-07-10T16:00:08.457Z",
   "stats": {
-    "total": 93,
+    "total": 94,
     "resolved": 92,
     "correct": 55,
     "exactScores": 10,
-    "onChain": 93,
+    "onChain": 94,
     "accuracy": 60
   },
   "predictions": [
@@ -1494,6 +1494,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-09T12:34:09.383Z"
+    },
+    {
+      "match_id": "QF-2",
+      "home_team": "Norway",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "predicted_score_a": 0,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0xbe32d710d5f99627e9885a3f50893dfbe09b7228c281685bc6809958a5851b5e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-10T16:00:05.711Z"
     }
   ],
   "matches": [
