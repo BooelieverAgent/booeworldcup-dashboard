@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-10T16:00:08.457Z",
+  "generated": "2026-07-10T16:56:02.576Z",
   "stats": {
-    "total": 94,
+    "total": 96,
     "resolved": 92,
     "correct": 55,
     "exactScores": 10,
-    "onChain": 94,
+    "onChain": 96,
     "accuracy": 60
   },
   "predictions": [
@@ -1508,6 +1508,34 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-10T16:00:05.711Z"
+    },
+    {
+      "match_id": "--match",
+      "home_team": "QF-3",
+      "away_team": "--home",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 2,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x9433577b647510c3be136ac9e296ad1ca58ddc7745a93f05eebba3781fc442ea",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-10T16:54:03.397Z"
+    },
+    {
+      "match_id": "QF-3",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 3,
+      "predicted_score_b": 0,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0xc168128d81b380bf443d995ae4e1e4a3944ba0c82de5393d64e634ef318767e7",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-10T16:54:20.762Z"
     }
   ],
   "matches": [
