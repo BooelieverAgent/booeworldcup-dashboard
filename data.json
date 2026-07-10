@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-10T17:37:25.977Z",
+  "generated": "2026-07-10T17:37:41.138Z",
   "stats": {
-    "total": 96,
+    "total": 95,
     "resolved": 93,
     "correct": 56,
     "exactScores": 10,
-    "onChain": 96,
+    "onChain": 95,
     "accuracy": 60
   },
   "predictions": [
@@ -1510,20 +1510,6 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-10T16:00:05.711Z"
-    },
-    {
-      "match_id": "--match",
-      "home_team": "QF-3",
-      "away_team": "--home",
-      "predicted_winner": "Draw",
-      "predicted_score_a": 2,
-      "predicted_score_b": 2,
-      "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x9433577b647510c3be136ac9e296ad1ca58ddc7745a93f05eebba3781fc442ea",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-07-10T16:54:03.397Z"
     },
     {
       "match_id": "QF-3",
