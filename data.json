@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-11T17:00:01.906Z",
+  "generated": "2026-07-11T18:00:02.121Z",
   "stats": {
-    "total": 95,
+    "total": 96,
     "resolved": 94,
     "correct": 57,
     "exactScores": 10,
-    "onChain": 95,
+    "onChain": 96,
     "accuracy": 61
   },
   "predictions": [
@@ -1526,6 +1526,20 @@
       "correct": true,
       "exact_score": false,
       "created_at": "2026-07-10T16:54:20.762Z"
+    },
+    {
+      "match_id": "QF-4",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x938f6090822eac9ffb6e8b9c094d3e96d2546e71564f0ac84d3dc0a739022aa7",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-11T17:34:12.037Z"
     }
   ],
   "matches": [
