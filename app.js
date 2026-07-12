@@ -154,12 +154,13 @@ function renderTodayMatches(data) {
   const today = getToday();
   const tomorrow = getTomorrow();
   
-  dateEl.textContent = formatDate(today) + ' (ET)';
+  dateEl.textContent = 'Next 24 Hours (ET)';
   
-  // Get only TODAY's matches
+  // Get matches from today AND tomorrow (next 24 hours)
   const upcomingMatches = data.matches.filter(m => {
     if (!m.home || m.home === 'TBD') return false;
-    return m.date === today;
+    if (m.status === 'completed') return false;
+    return m.date === today || m.date === tomorrow;
   });
   
   // Sort by match time
