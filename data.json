@@ -1,14 +1,28 @@
 {
-  "generated": "2026-07-14T11:00:01.245Z",
+  "generated": "2026-07-14T11:04:58.763Z",
   "stats": {
-    "total": 96,
+    "total": 97,
     "resolved": 96,
     "correct": 59,
     "exactScores": 10,
-    "onChain": 96,
+    "onChain": 97,
     "accuracy": 61
   },
   "predictions": [
+    {
+      "match_id": "Final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x86f1d981fe70c3a40deb724c704546748e35acef69563557653918018082627e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-14T11:04:58.762Z"
+    },
     {
       "match_id": "MD1-B2",
       "home_team": "Qatar",
