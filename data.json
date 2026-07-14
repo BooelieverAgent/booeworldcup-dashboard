@@ -1,14 +1,28 @@
 {
-  "generated": "2026-07-14T11:04:58.763Z",
+  "generated": "2026-07-14T11:06:37.448Z",
   "stats": {
-    "total": 97,
+    "total": 98,
     "resolved": 96,
     "correct": 59,
     "exactScores": 10,
-    "onChain": 97,
+    "onChain": 98,
     "accuracy": 61
   },
   "predictions": [
+    {
+      "match_id": "SF1",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x0b7b5571326156cce1c60766856c266e819d4953775aafbaaa8c0289eec13e95",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-14T11:06:37.448Z"
+    },
     {
       "match_id": "Final",
       "home_team": "France",
