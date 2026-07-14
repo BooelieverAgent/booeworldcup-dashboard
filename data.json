@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T11:06:37.448Z",
+  "generated": "2026-07-14T11:08:14.566Z",
   "stats": {
     "total": 98,
     "resolved": 96,
@@ -9,34 +9,6 @@
     "accuracy": 61
   },
   "predictions": [
-    {
-      "match_id": "SF1",
-      "home_team": "France",
-      "away_team": "Spain",
-      "predicted_winner": "France",
-      "predicted_score_a": 2,
-      "predicted_score_b": 0,
-      "confidence": "MEDIUM ⚡",
-      "tx_hash": "0x0b7b5571326156cce1c60766856c266e819d4953775aafbaaa8c0289eec13e95",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-07-14T11:06:37.448Z"
-    },
-    {
-      "match_id": "Final",
-      "home_team": "France",
-      "away_team": "Spain",
-      "predicted_winner": "Spain",
-      "predicted_score_a": 1,
-      "predicted_score_b": 2,
-      "confidence": "UNCERTAIN 🎲",
-      "tx_hash": "0x86f1d981fe70c3a40deb724c704546748e35acef69563557653918018082627e",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-07-14T11:04:58.762Z"
-    },
     {
       "match_id": "MD1-B2",
       "home_team": "Qatar",
@@ -1572,6 +1544,34 @@
       "correct": true,
       "exact_score": false,
       "created_at": "2026-07-11T17:34:12.037Z"
+    },
+    {
+      "match_id": "Final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x86f1d981fe70c3a40deb724c704546748e35acef69563557653918018082627e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-14T11:04:58.760Z"
+    },
+    {
+      "match_id": "SF1",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "predicted_score_a": 2,
+      "predicted_score_b": 0,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x0b7b5571326156cce1c60766856c266e819d4953775aafbaaa8c0289eec13e95",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-14T11:06:37.446Z"
     }
   ],
   "matches": [
