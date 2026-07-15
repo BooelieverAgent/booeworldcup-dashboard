@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T16:00:02.012Z",
+  "generated": "2026-07-15T17:00:01.479Z",
   "stats": {
     "total": 99,
     "resolved": 98,
@@ -2569,16 +2569,6 @@
       "home": "Argentina",
       "away": "Switzerland",
       "venue": "Hard Rock Stadium",
-      "status": "scheduled"
-    },
-    {
-      "id": "SF-1",
-      "date": "2026-07-15",
-      "time": "19:00",
-      "round": "SF",
-      "home": "England",
-      "away": "Argentina",
-      "venue": "MetLife Stadium",
       "status": "scheduled"
     }
   ]
