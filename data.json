@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T20:00:01.543Z",
+  "generated": "2026-07-15T21:00:01.244Z",
   "stats": {
     "total": 99,
     "resolved": 98,
@@ -2575,10 +2575,18 @@
       "id": "SF-1",
       "date": "2026-07-15",
       "time": "19:00",
-      "round": "SF",
       "home": "England",
       "away": "Argentina",
       "venue": "MetLife Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "SF-2",
+      "date": "2026-07-16",
+      "time": "19:00",
+      "home": "France",
+      "away": "Spain",
+      "venue": "AT&T Stadium",
       "status": "scheduled"
     }
   ]
