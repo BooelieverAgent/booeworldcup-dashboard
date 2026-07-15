@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T21:11:12.467Z",
+  "generated": "2026-07-15T21:15:05.730Z",
   "stats": {
     "total": 99,
     "resolved": 99,
@@ -1587,11 +1587,11 @@
       "confidence": "MEDIUM ⚡",
       "tx_hash": "0x00878b3e4d3b43b77ee471ac1d315c49a4eaa4b6e0940176294795b90031f502",
       "resolved": true,
+      "actual_score_a": 1,
+      "actual_score_b": 2,
       "correct": true,
       "exact_score": true,
-      "created_at": "2026-07-15T11:22:50.649Z",
-      "actual_score_a": 1,
-      "actual_score_b": 2
+      "created_at": "2026-07-15T11:22:50.649Z"
     }
   ],
   "matches": [
@@ -2580,9 +2580,7 @@
       "home": "England",
       "away": "Argentina",
       "venue": "MetLife Stadium",
-      "status": "completed",
-      "homeScore": 1,
-      "awayScore": 2
+      "status": "scheduled"
     },
     {
       "id": "SF-2",
