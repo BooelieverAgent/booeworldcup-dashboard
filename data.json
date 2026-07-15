@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T11:22:50.652Z",
+  "generated": "2026-07-15T12:00:01.515Z",
   "stats": {
     "total": 99,
     "resolved": 98,
@@ -9,20 +9,6 @@
     "accuracy": 61
   },
   "predictions": [
-    {
-      "match_id": "SF-1",
-      "home_team": "England",
-      "away_team": "Argentina",
-      "predicted_winner": "Argentina",
-      "predicted_score_a": 1,
-      "predicted_score_b": 2,
-      "confidence": "MEDIUM ⚡",
-      "tx_hash": "0x00878b3e4d3b43b77ee471ac1d315c49a4eaa4b6e0940176294795b90031f502",
-      "resolved": false,
-      "correct": false,
-      "exact_score": false,
-      "created_at": "2026-07-15T11:22:50.652Z"
-    },
     {
       "match_id": "MD1-B2",
       "home_team": "Qatar",
@@ -1590,6 +1576,20 @@
       "correct": false,
       "exact_score": false,
       "created_at": "2026-07-14T11:06:37.446Z"
+    },
+    {
+      "match_id": "SF-1",
+      "home_team": "England",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x00878b3e4d3b43b77ee471ac1d315c49a4eaa4b6e0940176294795b90031f502",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-15T11:22:50.649Z"
     }
   ],
   "matches": [
