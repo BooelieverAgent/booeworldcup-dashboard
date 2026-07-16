@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-16T06:00:02.019Z",
+  "generated": "2026-07-16T06:01:05.183Z",
   "stats": {
-    "total": 99,
+    "total": 100,
     "resolved": 99,
     "correct": 61,
     "exactScores": 11,
-    "onChain": 99,
+    "onChain": 100,
     "accuracy": 62
   },
   "predictions": [
@@ -1592,6 +1592,20 @@
       "correct": true,
       "exact_score": true,
       "created_at": "2026-07-15T11:22:50.649Z"
+    },
+    {
+      "match_id": "SF-2",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 1,
+      "predicted_score_b": 2,
+      "confidence": "HIGH 🔥",
+      "tx_hash": "0x86f1d981fe70c3a40deb724c704546748e35acef69563557653918018082627e",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-14T11:04:59.000Z"
     }
   ],
   "matches": [
