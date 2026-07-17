@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-17T12:00:01.410Z",
+  "generated": "2026-07-17T13:00:01.942Z",
   "stats": {
-    "total": 100,
+    "total": 103,
     "resolved": 100,
     "correct": 62,
     "exactScores": 11,
-    "onChain": 100,
+    "onChain": 103,
     "accuracy": 62
   },
   "predictions": [
@@ -1608,6 +1608,48 @@
       "correct": true,
       "exact_score": false,
       "created_at": "2026-07-14T11:04:59.000Z"
+    },
+    {
+      "match_id": "3P",
+      "home_team": "France",
+      "away_team": "England",
+      "predicted_winner": "Draw",
+      "predicted_score_a": 1,
+      "predicted_score_b": 1,
+      "confidence": "UNCERTAIN 🎲",
+      "tx_hash": "0x1fd77ceaeff80bdeea18b960760982854d6ea19a06c3f878347505839d8433ed",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-17T12:54:57.721Z"
+    },
+    {
+      "match_id": "WCF",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "predicted_winner": "Spain",
+      "predicted_score_a": 3,
+      "predicted_score_b": 1,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0xa24230d125ad50ca637ca43a8a161e50a16d01e3f290f6742bb191f6eece3eb1",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-17T12:55:24.058Z"
+    },
+    {
+      "match_id": "3P-v2",
+      "home_team": "France",
+      "away_team": "England",
+      "predicted_winner": "France",
+      "predicted_score_a": 2,
+      "predicted_score_b": 1,
+      "confidence": "MEDIUM ⚡",
+      "tx_hash": "0x8a931441e42f1935778fc93c4c400dc61d2f745c727f4212064f029186036957",
+      "resolved": false,
+      "correct": false,
+      "exact_score": false,
+      "created_at": "2026-07-17T12:57:25.404Z"
     }
   ],
   "matches": [
