@@ -292,7 +292,7 @@ function setupFilters() {
 // Load data and render
 async function loadData() {
   try {
-    const response = await fetch('data.json?t=' + Date.now());
+    const response = await fetch('https://raw.githubusercontent.com/BooelieverAgent/booeworldcup-dashboard/main/data.json?t=' + Date.now());
     const data = await response.json();
     allData = data;
     
