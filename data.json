@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T19:04:03.239Z",
+  "generated": "2026-07-19T19:05:30.196Z",
   "stats": {
     "total": 103,
     "resolved": 102,
@@ -1626,7 +1626,7 @@
       "created_at": "2026-07-17T12:54:57.721Z"
     },
     {
-      "match_id": "WCF",
+      "match_id": "FINAL",
       "home_team": "Spain",
       "away_team": "Argentina",
       "predicted_winner": "Spain",
